@@ -1,9 +1,10 @@
 import json
 
 
-def detect_suspicious_patterns(dict_names, report_file, write=True):
+def detect_suspicious_patterns(report_file, write=True):
 
     all_records_no_duplicates = set()
+    dict_names = ['is_open', 'latitude', 'longitude', 'address']
     all_records = list()
     invalid_locations = []
     formatting_scores = []
@@ -11,8 +12,10 @@ def detect_suspicious_patterns(dict_names, report_file, write=True):
     units_formatting = [30, 30, 15, 15]  # scale back to 100
     attributes_formatting = ['state', 'city', 'postal_code', 'latitude']
 
-    with open('yelp_academic_dataset_business.json', encoding='utf-8') as f:
+    with open('open_businesses.json', encoding='utf-8') as f:
+
         for item in f:
+
             data_dict = json.loads(item)
             data = ((key, data_dict.get(key)) for key in data_dict.keys())
             all_records_no_duplicates.add(data)
@@ -35,7 +38,8 @@ def detect_suspicious_patterns(dict_names, report_file, write=True):
                     if data_dict[name] not in business_per_address.keys():
                         business_per_address.update({data_dict[name]: 0})
                     business_per_address.update(({data_dict[name]: business_per_address.get(data_dict[name]) + 1}))
-                formatting_scores.append(current_formatting_score)
+            formatting_scores.append(current_formatting_score)
+
     suspicious_numbers = []
 
     for key in business_per_address.keys():

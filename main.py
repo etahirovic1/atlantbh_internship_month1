@@ -32,8 +32,8 @@ class Main:
                 print('Creating report...')
                 report_file = open('report.txt', 'w')
                 basic_analysis.basic_analysis(dict_names, report_file)
-                self.formatting_scores = detect_suspicious_patterns.detect_suspicious_patterns(dict_names, report_file)
-                self.formatting_scores = detect_unstandardized_data.detect_unstandardized_data(dict_names, report_file,
+                self.formatting_scores = detect_suspicious_patterns.detect_suspicious_patterns(report_file)
+                self.formatting_scores = detect_unstandardized_data.detect_unstandardized_data(report_file,
                                                                                                self.formatting_scores)
 
                 df = pd.read_csv('business_data.csv')
@@ -61,9 +61,8 @@ class Main:
             else:
                 print('Categorizing data...')
                 report_file = open('report.txt', 'a')
-                self.formatting_scores = detect_suspicious_patterns.detect_suspicious_patterns(dict_names, report_file,
-                                                                                               False)
-                self.formatting_scores = detect_unstandardized_data.detect_unstandardized_data(dict_names, report_file,
+                self.formatting_scores = detect_suspicious_patterns.detect_suspicious_patterns(report_file, False)
+                self.formatting_scores = detect_unstandardized_data.detect_unstandardized_data(report_file,
                                                                                                self.formatting_scores,
                                                                                                False)
                 categorization.categorization(self.formatting_scores)

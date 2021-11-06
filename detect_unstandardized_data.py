@@ -2,7 +2,7 @@ import json
 import re
 
 
-def detect_unstandardized_data(dict_names, report_file, formatting_scores, write=True):
+def detect_unstandardized_data(report_file, formatting_scores, write=True):
     num_open_businesses = 160585
     counter = 0
     invalid_values = 0
@@ -10,6 +10,7 @@ def detect_unstandardized_data(dict_names, report_file, formatting_scores, write
     wrong_format_state = []
     wrong_format_postal_code = []
     wrong_format_hours = []
+    wrong_format_address = []
 
     us_states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA",
                  "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
@@ -17,10 +18,11 @@ def detect_unstandardized_data(dict_names, report_file, formatting_scores, write
                  "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
                  "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
     canada_states = ['AB', 'BC', 'MB', 'NB', 'NL', 'NT', 'NS', 'NU', 'ON', 'PE', 'QC', 'SK', 'YT']
-    units_formatting = [30, 30, 15, 15]  # scale back to 100
-    attributes_formatting = ['state', 'city', 'postal_code', 'latitude']
+    units_formatting = [10, 25, 25, 10, 30]  # scale back to 100
+    attributes_formatting = ['state', 'city', 'postal_code', 'latitude', 'address']
+    dict_names = ['is_open', 'latitude', 'longitude', 'stars', 'state', 'postal_code', 'hours', 'address', 'city']
 
-    with open('yelp_academic_dataset_business.json', encoding='utf-8') as f:
+    with open('open_businesses.json', encoding='utf-8') as f:
         for item in f:
             data_dict = json.loads(item)
             current_formatting_score = 0
@@ -62,6 +64,26 @@ def detect_unstandardized_data(dict_names, report_file, formatting_scores, write
                             wrong_format_postal_code.append((data_dict['state'], data_dict['city'], data_dict[name],
                                                              data_dict['latitude'], data_dict['longitude']))
                             current_formatting_score += units_formatting[attributes_formatting.index(name)]
+                elif name == 'hours':
+                    if data_dict['hours'] is not None:
+                        wrong = False
+                        hrs = data_dict['hours'].values()
+                        for h in hrs:
+                            interval = h.split('-')
+                            for time in interval:
+                                component = time.split(':')
+                                if not 23 >= int(component[0]) >= 0 or not 59 >= int(component[1]) >= 0:
+                                    wrong_format_hours.append(interval)
+                                    current_formatting_score += units_formatting[attributes_formatting.index(name)]
+                                    break
+                            if wrong:
+                                break
+                elif name == 'address':
+                    if data_dict['address'] is not None and len(data_dict['address']) != 0:
+                        if not (True in [char.isdigit() for char in data_dict['address']]):
+                            # if not re.search(r"(?i)(airport|blvd|university|disney)", str(data_dict['address'])):
+                            wrong_format_address.append(data_dict['address'])
+                            current_formatting_score += units_formatting[attributes_formatting.index(name)]
                 elif name == 'city':
                     statement = data_dict[name]
                     res = bool(re.match('[a-zA-Z\s]+$', statement))
@@ -78,23 +100,9 @@ def detect_unstandardized_data(dict_names, report_file, formatting_scores, write
                         else:  # if all checks fail then append into wrongly formatted list
                             wrong_format_city.append(statement)
                             current_formatting_score += units_formatting[attributes_formatting.index(name)]
-                elif name == 'hours':
-                    if data_dict['hours'] is not None:
-                        wrong = False
-                        hrs = data_dict['hours'].values()
-                        for h in hrs:
-                            interval = h.split('-')
-                            for time in interval:
-                                component = time.split(':')
-                                if not 23 >= int(component[0]) >= 0 or not 59 >= int(component[1]) >= 0:
-                                    wrong_format_hours.append(interval)
-                                    current_formatting_score += units_formatting[attributes_formatting.index(name)]
-                                    break
-                            if wrong:
-                                break
 
-                formatting_scores[counter] = (formatting_scores[counter] - current_formatting_score)*0.4
-                counter += 1
+            formatting_scores[counter] = (formatting_scores[counter] - current_formatting_score)*0.6
+            counter += 1
 
     if write:
 
@@ -106,11 +114,15 @@ def detect_unstandardized_data(dict_names, report_file, formatting_scores, write
         report_file.write('Number of invalid values of lat, long or stars: ' + str(invalid_values) + '\n' + '\n')
         report_file.write('Wronly formatted cities: ' + str(wrong_format_city) + '\n' + '\n')
         report_file.write('Wronly formatted states: ' + str(wrong_format_state) + '\n' + '\n')
+        report_file.write('Wrongly formatted addresses: ' + str(wrong_format_address) + '\n' + '\n')
         report_file.write('Percent of wrongly formatted cities: ' + str(
             round((len(wrong_format_city) / num_open_businesses) * 100, 5)) + '%' + '\n' + '\n')
         report_file.write('Number of wrongly formatted cities: ' + str(len(wrong_format_city)) + '\n' + '\n')
         report_file.write('Percent of wrongly formatted states: ' + str(
             round((len(wrong_format_state) / num_open_businesses) * 100, 5)) + '%' + '\n' + '\n')
+        report_file.write('Number of wrongly formatted addresses: ' + str(len(wrong_format_address)) + '\n' + '\n')
+        report_file.write('Percent of wrongly formatted addresses: ' + str(
+            round((len(wrong_format_address) / num_open_businesses) * 100, 5)) + '%' + '\n' + '\n')
         report_file.write('Number of wrongly formatted states: ' + str(len(wrong_format_state)) + '\n' + '\n')
         report_file.write('Number of wrongly formatted hours: ' + str(len(wrong_format_hours)) + '\n\n')
 
