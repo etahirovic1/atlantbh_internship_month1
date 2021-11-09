@@ -101,20 +101,20 @@ def detect_unstandardized_data(report_file, formatting_scores, write=True):
                             wrong_format_city.append(statement)
                             current_formatting_score += units_formatting[attributes_formatting.index(name)]
 
-            formatting_scores[counter] = (formatting_scores[counter] - current_formatting_score)*0.6
+            formatting_scores[counter] = (formatting_scores[counter] - current_formatting_score) * 0.6
             counter += 1
 
     if write:
-
         report_file.write('Wrongly formatted postal codes: ' + str(wrong_format_postal_code) + '\n' + '\n')
-        report_file.write(
-            'Number of wrongly formatted postal codes: ' + str(len(wrong_format_postal_code)) + '\n\n')
-        report_file.write('Percentage of wrongly formatted postal codes: ' + str(round(100*len(
-                                        wrong_format_postal_code) / num_open_businesses, 2)) + '%' + '\n\n')
-        report_file.write('Number of invalid values of lat, long or stars: ' + str(invalid_values) + '\n' + '\n')
         report_file.write('Wronly formatted cities: ' + str(wrong_format_city) + '\n' + '\n')
         report_file.write('Wronly formatted states: ' + str(wrong_format_state) + '\n' + '\n')
         report_file.write('Wrongly formatted addresses: ' + str(wrong_format_address) + '\n' + '\n')
+        report_file.write('Number of invalid values of lat, long or stars: ' + str(invalid_values) + '\n' + '\n')
+        report_file.write('Percentage of wrongly formatted postal codes: ' + str(round((len(wrong_format_address)
+                                                                                        / num_open_businesses) * 100,
+                                                                                       2)) + '%' + '\n\n')
+        report_file.write(
+            'Number of wrongly formatted postal codes: ' + str(len(wrong_format_postal_code)) + '\n\n')
         report_file.write('Percent of wrongly formatted cities: ' + str(
             round((len(wrong_format_city) / num_open_businesses) * 100, 5)) + '%' + '\n' + '\n')
         report_file.write('Number of wrongly formatted cities: ' + str(len(wrong_format_city)) + '\n' + '\n')
