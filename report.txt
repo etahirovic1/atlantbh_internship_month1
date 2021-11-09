@@ -1,0 +1,984 @@
+Number of empty values per attribute: {'business_id': 0, 'name': 0, 'address': 5921, 'city': 0, 'state': 0, 'postal_code': 66, 'latitude': 0, 'longitude': 0, 'stars': 0, 'review_count': 0, 'is_open': 0, 'attributes': 0, 'categories': 0, 'hours': 0}
+
+Number of complete records: 128,184
+
+Total number of dummy values found: 0,0
+
+Number of dummy values found per attribute: {}
+
+Number of businesses per state: {'CO': 3198, 'OR': 25175, 'FL': 21907, 'GA': 18090, 'BC': 17298, 'OH': 11258, 'TX': 24485, 'MA': 36012, 'WA': 3121, 'KS': 1, 'CA': 13, 'NM': 1, 'NC': 1, 'OK': 1, 'IL': 1, 'NY': 2, 'AZ': 2, 'ON': 2, 'NH': 4, 'DE': 1, 'MN': 1, 'VA': 2, 'WI': 1, 'WY': 1, 'KY': 1, 'MI': 1, 'DC': 1, 'ME': 1, 'ABE': 1, 'AL': 1, 'HI': 1}
+
+Number of businesses per city: {'Boulder': 2542, 'Portland': 18203, 'Orange City': 169, 'Atlanta': 12612, 'Vancouver': 13330, 'Orlando': 10637, 'Columbus': 6634, 'Austin': 22416, 'Peabody': 602, 'Stone Mountain': 78, 'Kissimmee': 1713, 'Malden': 538, 'Pine Castle': 9, 'Boston': 8263, 'Needham': 318, 'Burnaby': 1725, 'Jamaica Plain': 359, 'Clermont': 492, 'Fern Park': 42, 'Brookline': 986, 'Surrey': 540, 'Doraville': 237, 'Sanford': 672, 'Burlington': 595, 'Allston': 436, 'Windermere': 153, 'Quincy': 1093, 'Chelsea': 186, 'Somerville': 1265, 'Swampscott': 124, 'Newton': 823, 'Wilmington': 222, 'Winter Park': 1288, 'Watertown': 607, 'Deltona': 130, 'Hyde Park': 102, 'Buda': 319, 'Cambridge': 2433, 'Reading': 225, 'Coquitlam': 652, 'Tucker': 472, 'Decatur': 1411, 'Wellesley': 304, 'Apopka': 403, 'Longwood': 469, 'Titusville': 302, 'Reynoldsburg': 255, 'Roslindale': 223, 'Richmond': 1791, 'Altamonte Springs': 783, 'Urbancrest': 3, 'Weymouth': 397, 'Tigard': 916, 'New Westminster': 522, 'Gahanna': 280, 'Orange': 1, 'Waltham': 883, 'Happy Valley': 403, 'Lake Mary': 512, 'Sandy Springs': 450, 'Pickerington': 231, 'Saugus': 434, 'Brighton': 430, 'Deland': 1, 'Hingham': 237, 'Clackamas': 484, 'Braintree': 577, 'Danvers': 472, 'Billerica': 218, 'Oviedo': 584, 'Louisville': 359, 'Melrose': 234, 'Chestnut Hill': 197, 'Natick': 669, 'Salem': 721, 'Kyle': 253, 'Lynn': 393, 'Lake Oswego': 761, 'Milwaukie': 456, 'Stoughton': 238, 'Charlestown': 151, 'Dunwoody': 243, 'Tualatin': 412, 'Forest Park': 108, 'Marietta': 476, 'College Park': 187, 'North Vancouver': 926, 'Beaverton': 2252, 'Smyrna': 820, 'Gladstone': 102, 'Sudbury': 25, 'Norwell': 127, 'London': 23, 'Gresham': 118, 'Norcross': 47, 'Castle Rock': 1, 'Minneola': 13, 'Cocoa': 228, 'West Roxbury': 249, 'Woburn': 618, 'Beverly': 476, 'Groveport': 54, 'Westerville': 569, 'Hull': 83, 'Lake Buena Vista': 307, 'Canton': 273, 'Dublin': 734, 'Jackson': 2, 'Randolph': 205, 'Poinciana': 20, 'Davenport': 253, 'Casselberry': 304, 'Framingham': 137, 'Concord': 195, 'Bee Cave': 265, 'Medford': 668, 'Dorchester Center': 54, 'Grove City': 303, 'Winter Garden': 517, 'Wakefield': 319, 'Nantasket Beach': 1, 'Powell': 291, 'Wayland': 116, 'South Boston': 99, 'Stoneham': 287, 'Rockland': 38, 'Winchester': 167, 'Oregon City': 226, 'Canal Winchester': 132, 'Everett': 324, 'Celebration': 128, 'Hillsboro': 323, 'Winter Springs': 232, 'Delaware': 156, 'Franklin': 2, 'Hapeville': 87, 'Lexington': 313, 'Chamblee': 286, 'Lakeway': 319, 'Merritt Island': 144, 'Sunset Valley': 79, 'Ashland': 1, 'Lewis Center': 168, 'Norwood': 461, 'North Reading': 179, 'New Albany': 127, 'Pflugerville': 124, 'Edgewood': 5, 'Arlington': 545, 'Del Valle': 50, 'West Vancouver': 227, 'Dedham': 416, 'Westwood': 147, 'Delta': 169, 'West Newton': 59, 'Dripping Springs': 227, 'Wellesley Hills': 35, 'West Linn': 195, 'Lynnfield': 111, 'Dorchester': 405, 'Tewksbury': 106, 'Leander': 19, 'Clarkston': 41, 'Port Moody': 167, 'Lafayette': 149, 'Ellsworth': 1, 'West Lake Hills': 105, 'Newton Centre': 45, 'North Billerica': 42, 'Revere': 392, 'Mount Dora': 89, 'Middleton': 121, 'Holbrook': 72, 'Ocoee': 322, 'Maitland': 217, 'Winthrop': 127, 'Debary': 40, 'Belmont': 338, 'Aloha': 152, 'Snellville': 2, 'oviedo': 1, 'DeBary': 28, 'Hilliard': 453, 'Bedford': 157, 'Geneva': 12, 'Milton': 113, 'AUBURNDALE': 2, 'Port Coquitlam': 203, 'Montverde': 9, 'College Park Ga': 1, 'Pilot Knob Acres': 1, 'Bay Lake': 49, 'Whitehall': 52, 'Weston': 40, 'Niwot': 38, 'Saint Cloud': 183, 'Ridgefield': 3, 'Cohasset': 83, 'Bexley': 55, 'Marblehead': 161, 'Sandy Spring': 3, 'W. Roxbury': 1, 'Mattapan': 48, 'East Walpole': 30, 'Damascus': 33, 'Plain City': 60, 'Berkshire Township': 2, 'Manor': 77, 'Brockton': 44, 'Morrow': 15, 'Goldenrod': 1, 'Oak Grove': 32, 'Pataskala': 75, 'Milwaukee': 3, 'Spicewood': 18, 'Needham Heights': 24, 'Johnstown': 18, 'Superior': 55, 'Newtonville': 48, 'Brookhaven': 70, 'Hazel Dell': 4, 'WINTER PARK': 1, 'Christmas': 14, 'Worthington': 174, 'Rollingwood': 12, 'Creedmoor': 8, 'Altamonte Spg': 1, 'Osteen': 6, 'Walpole': 55, 'South Weymouth': 43, 'Vinings': 8, 'Camas': 71, 'Mableton': 48, 'WINTER GARDEN': 3, 'Gainesville': 1, 'TIGARD': 1, 'Galloway': 28, 'East Boston': 107, 'Orlando-Kissimmee': 1, 'Lithonia': 3, 'BURNABY': 3, 'Grove city': 2, 'Newton Highlands': 51, 'Lake Buena Vista, Orlando': 1, 'Harbor Islands': 2, 'Sherwood': 5, 'Roxbury': 112, 'Grandview Heights': 32, 'North Quincy': 14, 'Manchaca': 48, 'East Point': 151, 'Medfield': 15, 'North Portland': 1, 'cambridge': 1, 'St. Cloud': 74, 'North Andover': 16, 'Marysville': 4, 'kissimmee': 5, 'Sunbury': 55, 'Upper Arlington': 107, 'Dover': 7, 'Avondale Estates': 49, 'Readville': 1, 'Newton Center': 48, 'Eatonville': 4, 'ORLANDO': 30, 'E.Point': 1, 'Newton U F': 11, 'austin': 2, 'Jeffries Point / Airport': 1, 'Kerrville': 1, 'N.Billerica': 1, 'King City': 16, 'Auburndale': 34, 'Point Venture': 3, 'longwood': 3, 'West Medford': 3, 'Mission Hill': 1, 'Avon': 53, 'West Austin': 2, 'CASSELBERRY': 1, 'St Cloud': 16, 'Rockwood': 1, 'Rio Rancho': 1, 'Buena Ventura Lakes': 5, 'Newton Upper Falls': 15, 'Columbus - Clintonville': 1, 'Longmont': 14, 'SURREY': 2, 'East Watertown': 5, 'ATLANTA': 11, 'Lithopolis': 6, 'Union Park': 5, 'Dr. Phillips': 1, 'Mims': 17, 'North Olmsted': 1, 'West Jefferson': 14, 'Nahant': 14, 'East Arlington': 2, 'North Weymouth': 13, 'Ellenwood': 28, 'Altamonte Springs ': 1, 'Kennesaw': 2, 'Sorrento': 14, 'Lincoln': 35, 'Heathrow': 16, 'Zellwood': 5, 'VANCOUVER': 3, 'San Marcos': 3, 'New Braunfels': 1, 'Chuluota': 6, 'Southwest Orlando': 2, 'WINTER SPRINGS': 1, 'Hapevile': 1, 'Andover': 14, 'East Weymouth': 19, 'North Shore': 1, 'Greater Vancouver A': 3, 'REVERE': 1, 'Cooper City': 1, 'Wollaston': 6, 'Championsgate': 6, 'Maynard': 1, 'NE Portland': 1, 'burnaby': 1, 'Blacklick': 37, 'Steveston': 2, 'Golden': 7, 'Lockbourne': 6, 'Obetz': 13, 'Oklahoma City': 1, 'AUSTIN': 15, 'ChampionsGate': 3, 'Champions Gate': 24, 'Roxbury Crossing': 33, 'Waban': 11, 'Belle Isle': 13, 'Carroll': 7, 'TITUSVILLE': 1, 'Lousiville': 1, 'RichMond': 1, 'Shawnee Hills': 1, 'Miami': 1, 'Heath': 1, 'Harrisburg': 2, 'PORTLAND': 12, 'Lake Grove': 2, 'Mid-Cambridge': 6, 'SMYRNA': 1, 'N Vancouver': 1, 'Auatin': 1, 'San Antonio': 3, 'East Atlanta': 3, 'Roswell': 2, 'Vancouver BC': 1, 'Greater Boston MA': 1, 'PEABODY': 1, 'Austin SW': 1, 'Silverton': 1, 'Driftwood': 27, 'CLERMONT': 1, 'Garfield': 1, 'Monroe': 1, 'Scottdale': 24, 'Tigard (Portland)': 2, 'Hutto': 2, 'casselberry': 1, 'Brevard County': 2, 'Alafaya': 8, 'Port St. John': 3, 'Brookwood': 2, 'Mount Sterling': 5, 'Buford': 1, 'Florida': 1, 'Round Rock': 9, 'Durham': 4, 'Homan': 1, 'Sherborn': 4, 'Austin ': 1, 'West Concord': 5, 'Hanover': 19, 'Aurora': 1, 'Lower Mills': 1, 'portland': 7, 'Hillsbor': 1, 'Four Corners': 7, 'Oakland': 11, 'Peachtree Corners': 6, 'wakefield': 1, 'Galena': 15, 'EVERETT': 1, 'Porltand': 2, 'Altamonte Springs, Florida': 1, 'Franklin Park': 1, 'Historical Park': 1, 'KISSIMMEE': 5, 'Conley': 9, 'South Natick': 3, 'Milwauke': 1, 'Newton L F': 5, 'reading': 1, 'Vanvouver': 1, 'Erie': 13, 'Bowen Island': 20, 'FRAMINGHAM': 1, 'Jamestown': 1, 'Greater Vancouver': 5, 'Harmony': 4, 'Braintree ': 1, 'Southwest Tampa': 1, 'Haines City': 2, 'Ladner': 4, 'Ashville': 10, 'Lockhart': 4, 'Metro Orlando': 1, 'atlanta': 2, 'Winter park': 2, 'Buckhead': 5, 'Lago Vista': 4, 'Phoenix': 1, 'Fairview': 5, 'Lake City': 17, 'Columbus/Hilliard': 1, 'West Point Grey': 1, 'N Billerica': 2, 'Point': 1, 'Candler-McAfee': 1, 'LAKEWAY': 1, 'Altamonte Spring': 2, 'Brice': 2, 'North Lakeway': 1, 'Collegepark': 1, 'Van Alstyne': 1, 'N. Weymouth': 1, 'North Delta': 2, 'stoneham': 1, 'Sunset valley': 1, 'TIgard': 1, 'Walt Disney World': 1, 'PICKERINGTON': 1, 'Eldorado Springs': 2, 'Greater Austin': 1, 'Atlanta  (BKHD)': 1, 'Wekiva Springs': 2, 'apopka': 1, 'SANFORD': 4, 'OR': 2, 'West Lake': 1, 'Lions Bay': 1, 'Winder': 1, 'Washington County': 1, 'Chestnut Hills': 1, 'OVIEDO': 2, 'South Buda': 1, 'Austin - Westlake Hills': 1, 'watertown': 1, 'Sellwood': 1, 'Alpharetta': 8, 'Cedar Park': 5, 'Woodstock': 1, 'North Cambridge': 1, 'Buena Vista': 1, 'Alamonte Springs': 1, 'Columbus - Lewis Center': 1, 'Kings County': 1, 'Lawrenceville': 3, 'Austell': 2, 'beaverton Or': 1, 'St John': 1, 'Belcarra': 2, 'Orchards': 3, 'BRAINTREE': 1, 'Boring': 2, 'Concourse C': 1, 'Orlando, Florida': 2, 'CLACKAMAS': 1, 'Altanta': 1, 'Port St John': 5, 'Kissimee': 2, 'DORCHESTER': 3, 'Reunion': 3, 'Rockport': 1, 'Port Saint John': 4, 'orlando': 2, 'Macon': 1, 'Lake Buena': 1, 'East boston': 1, 'Orlanto': 1, 'Oak Square': 1, 'Wilsonville': 3, 'Marrietta': 1, 'So. Weymouth': 1, 'Bee Caves': 6, 'Eastpoint': 2, 'North Waltham': 3, 'Grandview': 7, 'East Vancouver': 1, 'Austin texas': 1, 'Southeast Orlando': 1, 'LONGWOOD': 2, 'medford': 2, 'RICHMOND': 2, 'Decatur, GA': 1, 'Denver': 2, 'Kissimmee,': 1, 'Upper Arlngtn': 1, 'HOLB': 1, 'Altamonte Springs Orlando': 1, 'COLUMBUS': 5, 'West Pataskala': 1, 'Berkshire': 2, 'Winterpark': 1, 'Commercial Point': 3, 'Altamonte Sprin': 1, 'Greater Boston': 1, 'Schertz': 1, 'Marshfield': 1, 'Worcester': 1, 'Hunters Creek': 2, 'Toronto': 1, 'Anmore': 2, 'North Beverly': 2, 'South Bloomfield': 5, 'Hanscom Air Force Base': 2, 'Dale': 2, 'Kenansville': 3, 'Westlake': 2, 'BOULDER': 1, 'South End': 3, 'Greater Boston Area': 1, 'West linn': 1, 'Rockledge': 1, 'Stoughton MA': 1, 'Newwestminster': 1, 'Riverdale': 1, 'Boston College': 1, 'Cloverdale': 1, 'Lougheed': 1, 'Millersport': 2, 'Beavercreek': 1, 'Hillard': 2, 'Wellsley': 1, 'Bayamon': 1, 'MILWAUKIE': 1, 'North Decatur': 3, 'Broomfield': 6, 'newton': 1, 'Atlanda': 1, 'Wakefield, Massachusetts': 1, 'Bend': 1, 'Troutland': 1, 'Drippings Springs': 1, 'Greater Vancouver Area': 1, 'Southeast Austin': 1, 'Wenham': 1, 'Conyers': 1, 'Mt Dora': 3, 'Niederwald': 1, 'Columbus - Hilliard': 1, 'Marylhurst': 2, 'Arling-n': 1, 'HINGHAM': 1, 'Hollis': 1, 'Auston': 1, 'North Vancouver District': 1, 'Miami Beach': 1, 'Back Bay': 2, 'Belterra': 1, 'BOSTON': 4, 'N. Billerica': 2, 'Victoria': 1, 'Stouhgton': 1, 'Bud': 1, 'norwell': 1, 'North Lamar': 2, 'MEDFORD': 1, 'Volente': 5, 'Watertown,': 1, 'McDonough': 1, 'Spring Valley': 1, 'Lousville': 1, 'Gunbarrel': 2, 'Portland-Gateway Plaza': 1, 'Walnut Gardens  Boulder': 1, 'Norwood Center': 1, 'Colombus': 1, 'Gwinnett': 1, 'Fulton': 2, 'Coumbus': 1, 'Sommerville': 2, 'Braintree Ma': 1, 'Westlake Hills': 7, 'Decatur ': 1, 'Irvine': 1, 'Pine Lake': 2, 'Prontland': 1, 'De Bary': 3, 'LakeWay': 1, 'Ococee': 1, 'HIngham': 2, 'east boston': 2, 'North Scituate Village': 1, 'boston': 2, 'Gotha': 6, 'Jeffries Point': 1, 'Hays': 1, 'Sharon': 3, 'Lee Vista': 1, 'E. Boston': 1, 'Wimberley': 1, 'DEDHAM': 2, 'ALTAMONTE SPRINGS': 1, 'Mission Viejo': 1, 'Orlando ': 1, 'Vancover': 2, 'Nagadocaches': 1, 'Brighton Newton': 1, 'MIlton': 1, 'Boston-Fenway': 1, 'Arlington Heights': 1, 'Bolder': 1, 'St.Cloud': 2, 'BrIghton': 1, 'Del Valley': 1, 'Kitsilano': 1, 'Columbus ': 1, 'Mareitta': 1, 'Mustang Ridge': 1, 'Newton Lower Falls': 5, 'Lake Oswego, OR': 1, 'Dallas': 2, 'Granville': 1, 'Leominster': 1, 'Atlants': 1, 'Lake Buena Visa': 2, 'Clintonville': 1, 'lake mary': 1, 'acworth': 1, 'Palm Bay': 1, 'Sand Lake, Florida': 1, 'milwaukie': 1, 'El Cerrito': 1, 'Sandy springs': 1, 'Newburyport': 1, 'Oveido': 1, 'Lake Travis': 1, 'Longwood Fl': 1, 'Portand': 1, 'Tillamoo': 1, 'Austin.': 1, 'Glendale': 1, 'Orient': 3, 'Monteverde': 1, 'Felida': 1, 'West Columbus': 1, 'Druid Hills': 1, 'S. Boston': 1, 'Atlanta ': 1, 'Chelmsford': 1, 'Greater Vancouver Regional District': 1, 'Austin, TX': 1, 'Midway': 1, 'Grove Port': 1, 'Damascas': 1, 'PORT COQUITLAM': 1, 'NEW WESTMINSTER': 1, 'Hanscom AFB': 2, 'Sheridan': 1, 'BURLINGTON': 2, 'Fraser Heights': 1, 'West Peabody': 2, 'S Boston': 1, 'Beecave': 1, 'Polaris': 1, 'BOSTON, HOTEL': 1, 'VANCOUVER DT (BC)': 1, 'Lake Austin': 1, 'DUNWOODY': 1, 'Ponce': 1, 'Stoughon': 1, 'Provincetown': 1, 'Lake Monroe': 1, 'Orlando Florida': 1, 'Cleveland': 1, 'Tewskbury': 1, 'surrey': 1, 'Sanford,': 1, 'Liberty': 1, 'Portland, OR': 1, 'Clayton': 2, 'Nashua': 1, 'Atalanta': 1, 'HILLSBORO': 1, 'E Boston': 1, 'Aloma': 1, 'WOBURN': 2, 'Griffin': 1, 'COCOA': 1, 'Mabelton': 1, 'Hollbrook': 1, 'ORLANDO HOTEL': 1, 'BOSTON LOGAN AP': 1, 'Carlisle': 4, 'Metro Atlanta': 1, 'BRA': 1, 'columbus': 1, 'ST. CLOUD': 1, 'Beuna Vista': 1, 'Winter Garden Fl': 1, 'Babson Park': 1, 'BEAVERTON': 2, 'Dedham ': 1, 'Downtown Austin': 1, '51 Richard Beall Hwy 17-92': 1, 'Altamonte': 2, 'St Johns': 1, 'DEBARY': 1, 'Driftwood, TX': 1, 'Danville': 1, 'Watertowm': 1, 'Winter springs': 2, 'Orland': 1, 'Fern park': 1, 'Saint  Cloud': 1, 'Pine Hills': 1, 'Gillem Enclave': 1, 'N.Reading': 1, 'Smryna': 1, 'WInter Park': 1, 'norwood': 1, 'New Westminister': 4, 'Rivergrove': 1, 'Austin Tx': 1, 'Blendon Twp': 1, 'Forest City': 1, 'GRANDVIEW': 1, 'Englewood': 1, 'Happy valley': 2, 'Beacon Hill': 1, 'Wakefield Ma': 1, 'Springfield': 1, 'WALTHAM': 1, 'NORTH VANCOUVER': 1, 'NW Atlanta': 1, 'Newton MA': 1, 'Marlborough': 2, 'Dripping Springs.': 1, 'EAST  Boston': 1, 'Lake Owego': 1, 'Loughman': 1, 'Marlbehead': 1, 'Piedmont': 1, 'Northwest Clackamas': 1, 'DRIFTWOOD': 1, 'Wrenthan': 1, 'South Brookline': 1, 'Jamaica  Plain': 1, 'Norht Vancouver': 1, 'Historic Milwaukie': 1, 'San Jose': 1, 'Wellesley,': 1, 'Upper Arlignton': 1, 'beaverton': 1, 'Northlake': 1, 'Atlanta (Georgia Tech)': 1, 'WESTERVILLE': 1, 'Bastrop': 1, 'Kingston': 1, 'Hampton': 1, 'Oak Bluffs': 1, 'Buckhead, Atlanta': 1, 'Gold Hill': 1, 'Waterford Lakes': 2, 'Beaverton (Portland)': 1, 'Westford': 1, 'vancouver': 1, 'Etna': 3, 'Winter Spring': 1, 'Cassselberry': 1, 'Milwaulkie': 1, 'Braintee': 1, 'Ocoee Fl': 1, 'Perimeter': 1, 'Boston-Winthrop': 1, 'LAKE CITY': 1, 'Clarkson': 1, 'Pinehurst': 1, 'DUBLIN': 1, 'brighton': 1, 'Brookline Village': 1, 'San dy': 1, 'Georgia': 1, 'Oakhill': 1, 'Fairburn': 1, 'Milwuakie': 1, 'Lilburn': 1, 'Hiliard': 1, 'West Roxury': 1, 'Arvada': 1, 'West Plant': 1, 'Marble Cliff': 1, 'Merrit Island': 1, 'Doctor Phillips': 1, 'UPPER ARLNGTN': 1, 'CONLEY': 1, 'Portland-Eastport Plaza': 1, 'DAVENPORT': 1, 'Northeast Orlando': 1, 'Port coquitlam': 1, 'Orlando Fl': 1, 'Thoroughbred Estates': 1, 'Central': 1, 'Charleston': 1, 'Dell Valley': 1, 'SOMERVILLE': 2, 'Quincy Center': 1, 'South Waltham': 1, 'PORTLAND AP': 1, 'Altamonte  springs': 1, 'Winter Park ': 1, 'Morgan Hill': 1, 'Autin': 1, 'Amlin': 1, 'Beaverton-Aloha': 1, 'Norfolk': 1, 'Newton Upper Fall': 1, 'Dripping springs': 1, 'Vancovuer': 1, 'Sand Lake': 1, 'Newton Corner': 1, 'Downtown Vancouver': 1, 'Columbus North': 1, 'Kelowna': 1, 'Portland Oregon': 1, 'Alton': 1, 'Delta Park': 1}
+
+Percentage of closed businesses per city: {'oviedo': 100.0, 'Pilot Knob Acres': 100.0, 'Gainesville': 100.0, 'Hapevile': 100.0, 'Heath': 100.0, 'Garfield': 100.0, 'Florida': 100.0, 'Aurora': 100.0, 'Franklin Park': 100.0, 'Vanvouver': 100.0, 'West Point Grey': 100.0, 'Candler-McAfee': 100.0, 'LAKEWAY': 100.0, 'Atlanta  (BKHD)': 100.0, 'Chestnut Hills': 100.0, 'Sellwood': 100.0, 'Woodstock': 100.0, 'Rockport': 100.0, 'Altamonte Springs Orlando': 100.0, 'newton': 100.0, 'Niederwald': 100.0, 'Auston': 100.0, 'North Vancouver District': 100.0, 'Stouhgton': 100.0, 'North Lamar': 100.0, 'Portland-Gateway Plaza': 100.0, 'east boston': 100.0, 'Jeffries Point': 100.0, 'Orlando ': 100.0, 'Granville': 100.0, 'milwaukie': 100.0, 'El Cerrito': 100.0, 'Lake Travis': 100.0, 'Portand': 100.0, 'Midway': 100.0, 'S Boston': 100.0, 'Provincetown': 100.0, 'Cleveland': 100.0, 'Sanford,': 100.0, 'Griffin': 100.0, 'Watertowm': 100.0, 'Saint  Cloud': 100.0, 'Beacon Hill': 100.0, 'Newton MA': 100.0, 'Marlbehead': 100.0, 'Norht Vancouver': 100.0, 'Upper Arlignton': 100.0, 'Northlake': 100.0, 'Atlanta (Georgia Tech)': 100.0, 'Westford': 100.0, 'Milwaulkie': 100.0, 'Perimeter': 100.0, 'Brookline Village': 100.0, 'Georgia': 100.0, 'Thoroughbred Estates': 100.0, 'Charleston': 100.0, 'Quincy Center': 100.0, 'South Waltham': 100.0, 'Beaverton-Aloha': 100.0, 'Newton Upper Fall': 100.0, 'Columbus North': 100.0, 'Portland Oregon': 100.0, 'Cedar Park': 80.0, 'Mid-Cambridge': 66.67, 'Wollaston': 66.67, 'South End': 66.67, 'De Bary': 66.67, 'Sherwood': 60.0, 'Buckhead': 60.0, 'Franklin': 50.0, 'West Austin': 50.0, 'Rollingwood': 50.0, 'Steveston': 50.0, 'Harrisburg': 50.0, 'Wekiva Springs': 50.0, 'Kissimee': 50.0, 'Denver': 50.0, 'Hunters Creek': 50.0, 'Fulton': 50.0, 'Pine Lake': 50.0, 'Dallas': 50.0, 'Altamonte': 50.0, 'OR': 50.0, 'Marylhurst': 50.0, 'Sommerville': 50.0, 'Clayton': 50.0, 'West Concord': 40.0, 'Port St John': 40.0, 'Newton L F': 40.0, 'Greater Vancouver': 40.0, 'Allston': 39.68, 'Oak Grove': 37.5, 'Alpharetta': 37.5, 'Newton Highlands': 35.29, 'Milwaukee': 33.33, 'longwood': 33.33, 'Greater Vancouver A': 33.33, 'San Antonio': 33.33, 'Bee Caves': 33.33, 'BURNABY': 33.33, 'North Waltham': 33.33, 'Sharon': 33.33, 'Mt Dora': 33.33, 'ChampionsGate': 33.33, 'WINTER GARDEN': 33.33, 'Broomfield': 33.33, 'Point Venture': 33.33, 'Lithonia': 33.33, 'Etna': 33.33, 'DORCHESTER': 33.33, 'North Decatur': 33.33, 'Port St. John': 33.33, 'Cambridge': 32.68, 'Hull': 31.33, 'Charlestown': 31.13, 'Boston': 29.55, 'North Quincy': 28.57, 'Golden': 28.57, 'Chestnut Hill': 28.43, 'Brighton': 28.37, 'Sudbury': 28.0, 'Brookline': 27.79, 'Portland': 27.76, 'Jamaica Plain': 27.58, 'Somerville': 27.27, 'Vancouver': 27.16, 'Mount Dora': 26.97, 'Newton Centre': 26.67, 'Avondale Estates': 26.53, 'Arlington': 26.24, 'Framingham': 25.55, 'Sunset Valley': 25.32, 'Atlanta': 25.25, 'Austin': 25.06, 'Watertown': 25.04, 'Eatonville': 25.0, 'Heathrow': 25.0, 'Vinings': 25.0, 'Harmony': 25.0, 'Creedmoor': 25.0, 'Hazel Dell': 25.0, 'Boulder': 24.78, 'Natick': 24.51, 'Roxbury Crossing': 24.24, 'Richmond': 24.12, 'Randolph': 23.9, 'North Billerica': 23.81, 'Bee Cave': 23.77, 'Rockland': 23.68, 'Niwot': 23.68, 'Doraville': 23.63, 'Winthrop': 23.62, 'Pflugerville': 23.39, 'East Walpole': 23.33, 'South Boston': 23.23, 'Winter Park': 23.14, 'Whitehall': 23.08, 'Salem': 23.02, 'Beverly': 22.9, 'Newton': 22.84, 'New Westminster': 22.8, 'Wellesley': 22.7, 'Malden': 22.68, 'West Roxbury': 22.49, 'Danvers': 22.25, 'Columbus': 22.22, 'Spicewood': 22.22, 'Belmont': 22.19, 'Louisville': 22.01, 'Del Valle': 22.0, 'Decatur': 21.97, 'Quincy': 21.96, 'Marietta': 21.85, 'Burlington': 21.68, 'Beaverton': 21.67, 'Lynnfield': 21.62, 'West Vancouver': 21.59, 'Winchester': 21.56, 'Wayland': 21.55, 'Dunwoody': 21.4, 'Coquitlam': 21.32, 'Port Coquitlam': 21.18, 'Sandy Springs': 21.11, 'Burnaby': 21.1, 'Wakefield': 21.0, 'Lakeway': 21.0, 'Chamblee': 20.98, 'Swampscott': 20.97, 'Dublin': 20.84, 'Altamonte Springs': 20.82, 'Peabody': 20.76, 'Lake Mary': 20.7, 'Roxbury': 20.54, 'Marblehead': 20.5, 'Casselberry': 20.39, 'College Park': 20.32, 'Saugus': 20.28, 'Medford': 20.21, 'Melrose': 20.09, 'Poinciana': 20.0, 'Superior': 20.0, 'Buena Ventura Lakes': 20.0, 'Volente': 20.0, 'Union Park': 20.0, 'Edgewood': 20.0, 'Revere': 19.9, 'Chelsea': 19.89, 'Happy Valley': 19.85, 'Waltham': 19.82, 'Bedford': 19.75, 'Orlando': 19.63, 'Upper Arlington': 19.63, 'Woburn': 19.58, 'Reading': 19.56, 'West Linn': 19.49, 'Dedham': 19.47, 'Lafayette': 19.46, 'Lake Oswego': 19.32, 'Pickerington': 19.05, 'Hingham': 18.99, 'Tewksbury': 18.87, 'Newtonville': 18.75, 'St Cloud': 18.75, 'North Vancouver': 18.68, 'Brookhaven': 18.57, 'Port Moody': 18.56, 'Titusville': 18.54, 'Tigard': 18.45, 'Camas': 18.31, 'Dorchester': 18.27, 'Norwood': 18.22, 'Powell': 18.21, 'Braintree': 18.2, 'Middleton': 18.18, 'Newton U F': 18.18, 'Walpole': 18.18, 'Waban': 18.18, 'Lynn': 18.07, 'Cohasset': 18.07, 'Smyrna': 18.05, 'Cocoa': 17.98, 'Delaware': 17.95, 'Roslindale': 17.94, 'DeBary': 17.86, 'Stoneham': 17.77, 'Oregon City': 17.7, 'Ocoee': 17.7, 'Winter Springs': 17.67, 'Mims': 17.65, 'Oviedo': 17.64, 'Canton': 17.58, 'St. Cloud': 17.57, 'Milwaukie': 17.54, 'Hillsboro': 17.34, 'Needham': 17.3, 'Hapeville': 17.24, 'Hilliard': 17.22, 'West Newton': 16.95, 'Lake Buena Vista': 16.94, 'Manor': 16.88, 'Sanford': 16.82, 'Kissimmee': 16.81, 'Manchaca': 16.67, 'Forest Park': 16.67, 'PORTLAND': 16.67, 'Peachtree Corners': 16.67, 'Holbrook': 16.67, 'Lockbourne': 16.67, 'Delta': 16.57, 'East Point': 16.56, 'Aloha': 16.45, 'Tucker': 16.31, 'South Weymouth': 16.28, 'Longwood': 16.2, 'West Lake Hills': 16.19, 'Lewis Center': 16.07, 'Everett': 16.05, 'Lexington': 15.97, 'Norwell': 15.75, 'Gahanna': 15.71, 'Clackamas': 15.7, 'Grandview Heights': 15.62, 'Surrey': 15.56, 'Stoughton': 15.55, 'Erie': 15.38, 'Wilmington': 15.32, 'Tualatin': 15.29, 'Weymouth': 15.11, 'Debary': 15.0, 'Bowen Island': 15.0, 'Orange City': 14.79, 'Billerica': 14.68, 'Clarkston': 14.63, 'Newton Center': 14.58, 'Dripping Springs': 14.54, 'Fern Park': 14.29, 'Galloway': 14.29, 'Nahant': 14.29, 'West Jefferson': 14.29, 'Grandview': 14.29, 'Kyle': 14.23, 'New Albany': 14.17, 'Stone Mountain': 14.1, 'East Boston': 14.02, 'Merritt Island': 13.89, 'Worthington': 13.79, 'Reynoldsburg': 13.73, 'Westerville': 13.71, 'Westwood': 13.61, 'Blacklick': 13.51, 'Maitland': 13.36, 'Morrow': 13.33, 'Celebration': 13.28, 'Milton': 13.27, 'Avon': 13.21, 'Dorchester Center': 12.96, 'Apopka': 12.9, 'Winter Garden': 12.77, 'Gladstone': 12.75, 'Hyde Park': 12.75, 'Bexley': 12.73, 'North Andover': 12.5, 'Alafaya': 12.5, 'Weston': 12.5, 'Scottdale': 12.5, 'Clermont': 12.4, 'Bay Lake': 12.24, 'Damascus': 12.12, 'Concord': 11.28, 'Windermere': 11.11, 'Johnstown': 11.11, 'Montverde': 11.11, 'Pine Castle': 11.11, 'Round Rock': 11.11, 'Ellenwood': 10.71, 'Pataskala': 10.67, 'Canal Winchester': 10.61, 'Leander': 10.53, 'East Weymouth': 10.53, 'Mableton': 10.42, 'Buda': 10.34, 'North Reading': 10.06, 'Ashville': 10.0, 'Saint Cloud': 9.29, 'Groveport': 9.26, 'Deltona': 9.23, 'Davenport': 9.09, 'Auburndale': 8.82, 'London': 8.7, 'Grove City': 8.58, 'Wellesley Hills': 8.57, 'Lincoln': 8.57, 'Norcross': 8.51, 'Plain City': 8.33, 'Mattapan': 8.33, 'Geneva': 8.33, 'Belle Isle': 7.69, 'Driftwood': 7.41, 'Longmont': 7.14, 'Andover': 7.14, 'Sorrento': 7.14, 'Gresham': 6.78, 'Galena': 6.67, 'AUSTIN': 6.67, 'Newton Upper Falls': 6.67, 'King City': 6.25, 'Hanover': 5.26, 'Needham Heights': 4.17, 'Champions Gate': 4.17, 'ORLANDO': 3.33, 'Brockton': 2.27}
+
+Cities where 75% or more businesses closed down: {'oviedo': ('100.0%', 'number: 1'), 'Pilot Knob Acres': ('100.0%', 'number: 1'), 'Gainesville': ('100.0%', 'number: 1'), 'Hapevile': ('100.0%', 'number: 1'), 'Heath': ('100.0%', 'number: 1'), 'Garfield': ('100.0%', 'number: 1'), 'Florida': ('100.0%', 'number: 1'), 'Aurora': ('100.0%', 'number: 1'), 'Franklin Park': ('100.0%', 'number: 1'), 'Vanvouver': ('100.0%', 'number: 1'), 'West Point Grey': ('100.0%', 'number: 1'), 'Candler-McAfee': ('100.0%', 'number: 1'), 'LAKEWAY': ('100.0%', 'number: 1'), 'Atlanta  (BKHD)': ('100.0%', 'number: 1'), 'Chestnut Hills': ('100.0%', 'number: 1'), 'Sellwood': ('100.0%', 'number: 1'), 'Cedar Park': ('80.0%', 'number: 4'), 'Woodstock': ('100.0%', 'number: 1'), 'Rockport': ('100.0%', 'number: 1'), 'Altamonte Springs Orlando': ('100.0%', 'number: 1'), 'newton': ('100.0%', 'number: 1'), 'Niederwald': ('100.0%', 'number: 1'), 'Auston': ('100.0%', 'number: 1'), 'North Vancouver District': ('100.0%', 'number: 1'), 'Stouhgton': ('100.0%', 'number: 1'), 'North Lamar': ('100.0%', 'number: 2'), 'Portland-Gateway Plaza': ('100.0%', 'number: 1'), 'east boston': ('100.0%', 'number: 2'), 'Jeffries Point': ('100.0%', 'number: 1'), 'Orlando ': ('100.0%', 'number: 1'), 'Granville': ('100.0%', 'number: 1'), 'milwaukie': ('100.0%', 'number: 1'), 'El Cerrito': ('100.0%', 'number: 1'), 'Lake Travis': ('100.0%', 'number: 1'), 'Portand': ('100.0%', 'number: 1'), 'Midway': ('100.0%', 'number: 1'), 'S Boston': ('100.0%', 'number: 1'), 'Provincetown': ('100.0%', 'number: 1'), 'Cleveland': ('100.0%', 'number: 1'), 'Sanford,': ('100.0%', 'number: 1'), 'Griffin': ('100.0%', 'number: 1'), 'Watertowm': ('100.0%', 'number: 1'), 'Saint  Cloud': ('100.0%', 'number: 1'), 'Beacon Hill': ('100.0%', 'number: 1'), 'Newton MA': ('100.0%', 'number: 1'), 'Marlbehead': ('100.0%', 'number: 1'), 'Norht Vancouver': ('100.0%', 'number: 1'), 'Upper Arlignton': ('100.0%', 'number: 1'), 'Northlake': ('100.0%', 'number: 1'), 'Atlanta (Georgia Tech)': ('100.0%', 'number: 1'), 'Westford': ('100.0%', 'number: 1'), 'Milwaulkie': ('100.0%', 'number: 1'), 'Perimeter': ('100.0%', 'number: 1'), 'Brookline Village': ('100.0%', 'number: 1'), 'Georgia': ('100.0%', 'number: 1'), 'Thoroughbred Estates': ('100.0%', 'number: 1'), 'Charleston': ('100.0%', 'number: 1'), 'Quincy Center': ('100.0%', 'number: 1'), 'South Waltham': ('100.0%', 'number: 1'), 'Beaverton-Aloha': ('100.0%', 'number: 1'), 'Newton Upper Fall': ('100.0%', 'number: 1'), 'Columbus North': ('100.0%', 'number: 1'), 'Portland Oregon': ('100.0%', 'number: 1')}
+
+Average star rating per city with number of ratings: {'Boulder': (3.78, 2542), 'Portland': (3.92, 18203), 'Orange City': (3.3, 169), 'Atlanta': (3.52, 12612), 'Vancouver': (3.61, 13330), 'Orlando': (3.54, 10637), 'Columbus': (3.54, 6634), 'Austin': (3.85, 22416), 'Peabody': (3.52, 602), 'Stone Mountain': (3.06, 78), 'Kissimmee': (3.32, 1713), 'Malden': (3.52, 538), 'Pine Castle': (3.83, 9), 'Boston': (3.62, 8263), 'Needham': (3.75, 318), 'Burnaby': (3.36, 1725), 'Jamaica Plain': (3.78, 359), 'Clermont': (3.41, 492), 'Fern Park': (3.61, 42), 'Brookline': (3.73, 986), 'Surrey': (3.21, 540), 'Doraville': (3.68, 237), 'Sanford': (3.57, 672), 'Burlington': (3.43, 595), 'Allston': (3.48, 436), 'Windermere': (3.64, 153), 'Quincy': (3.54, 1093), 'Chelsea': (3.41, 186), 'Somerville': (3.77, 1265), 'Swampscott': (3.62, 124), 'Newton': (3.77, 823), 'Wilmington': (3.59, 222), 'Winter Park': (3.81, 1288), 'Watertown': (3.77, 607), 'Deltona': (3.37, 130), 'Hyde Park': (3.45, 102), 'Buda': (3.68, 319), 'Cambridge': (3.65, 2433), 'Reading': (3.72, 225), 'Coquitlam': (3.32, 652), 'Tucker': (3.38, 472), 'Decatur': (3.52, 1411), 'Wellesley': (3.7, 304), 'Apopka': (3.56, 403), 'Longwood': (3.77, 469), 'Titusville': (3.5, 302), 'Reynoldsburg': (3.25, 255), 'Roslindale': (3.57, 223), 'Richmond': (3.3, 1791), 'Altamonte Springs': (3.47, 783), 'Urbancrest': (4.17, 3), 'Weymouth': (3.6, 397), 'Tigard': (3.69, 916), 'New Westminster': (3.51, 522), 'Gahanna': (3.63, 280), 'Orange': (4.0, 1), 'Waltham': (3.63, 883), 'Happy Valley': (3.56, 403), 'Lake Mary': (3.57, 512), 'Sandy Springs': (3.72, 450), 'Pickerington': (3.5, 231), 'Saugus': (3.36, 434), 'Brighton': (3.6, 430), 'Deland': (4.0, 1), 'Hingham': (3.62, 237), 'Clackamas': (3.56, 484), 'Braintree': (3.38, 577), 'Danvers': (3.46, 472), 'Billerica': (3.53, 218), 'Oviedo': (3.63, 584), 'Louisville': (3.77, 359), 'Melrose': (3.83, 234), 'Chestnut Hill': (3.49, 197), 'Natick': (3.5, 669), 'Salem': (3.81, 721), 'Kyle': (3.33, 253), 'Lynn': (3.47, 393), 'Lake Oswego': (3.93, 761), 'Milwaukie': (3.78, 456), 'Stoughton': (3.47, 238), 'Charlestown': (3.57, 151), 'Dunwoody': (3.51, 243), 'Tualatin': (3.68, 412), 'Forest Park': (3.31, 108), 'Marietta': (3.33, 476), 'College Park': (3.01, 187), 'North Vancouver': (3.57, 926), 'Beaverton': (3.69, 2252), 'Smyrna': (3.5, 820), 'Gladstone': (3.77, 102), 'Sudbury': (3.38, 25), 'Norwell': (3.67, 127), 'London': (3.0, 23), 'Gresham': (3.7, 118), 'Norcross': (2.96, 47), 'Castle Rock': (2.5, 1), 'Minneola': (4.08, 13), 'Cocoa': (3.58, 228), 'West Roxbury': (3.62, 249), 'Woburn': (3.56, 618), 'Beverly': (3.7, 476), 'Groveport': (3.33, 54), 'Westerville': (3.66, 569), 'Hull': (3.69, 83), 'Lake Buena Vista': (3.8, 307), 'Canton': (3.41, 273), 'Dublin': (3.54, 734), 'Jackson': (4.25, 2), 'Randolph': (3.4, 205), 'Poinciana': (2.52, 20), 'Davenport': (3.38, 253), 'Casselberry': (3.48, 304), 'Framingham': (3.25, 137), 'Concord': (3.68, 195), 'Bee Cave': (3.69, 265), 'Medford': (3.64, 668), 'Dorchester Center': (3.32, 54), 'Grove City': (3.33, 303), 'Winter Garden': (3.7, 517), 'Wakefield': (3.81, 319), 'Nantasket Beach': (2.0, 1), 'Powell': (3.67, 291), 'Wayland': (3.72, 116), 'South Boston': (3.69, 99), 'Stoneham': (3.62, 287), 'Rockland': (3.71, 38), 'Winchester': (3.74, 167), 'Oregon City': (3.95, 226), 'Canal Winchester': (3.17, 132), 'Everett': (3.53, 324), 'Celebration': (3.67, 128), 'Hillsboro': (3.55, 323), 'Winter Springs': (3.6, 232), 'Delaware': (3.53, 156), 'Franklin': (3.5, 2), 'Hapeville': (3.62, 87), 'Lexington': (3.82, 313), 'Chamblee': (3.6, 286), 'Lakeway': (3.96, 319), 'Merritt Island': (3.66, 144), 'Sunset Valley': (3.53, 79), 'Ashland': (4.5, 1), 'Lewis Center': (3.5, 168), 'Norwood': (3.58, 461), 'North Reading': (3.69, 179), 'New Albany': (3.42, 127), 'Pflugerville': (3.45, 124), 'Edgewood': (3.8, 5), 'Arlington': (3.84, 545), 'Del Valle': (3.76, 50), 'West Vancouver': (3.45, 227), 'Dedham': (3.52, 416), 'Westwood': (3.55, 147), 'Delta': (3.46, 169), 'West Newton': (3.59, 59), 'Dripping Springs': (3.94, 227), 'Wellesley Hills': (3.66, 35), 'West Linn': (3.88, 195), 'Lynnfield': (3.58, 111), 'Dorchester': (3.41, 405), 'Tewksbury': (3.49, 106), 'Leander': (4.08, 19), 'Clarkston': (3.59, 41), 'Port Moody': (3.67, 167), 'Lafayette': (3.69, 149), 'Ellsworth': (2.0, 1), 'West Lake Hills': (3.87, 105), 'Newton Centre': (4.04, 45), 'North Billerica': (3.3, 42), 'Revere': (3.36, 392), 'Mount Dora': (3.84, 89), 'Middleton': (3.83, 121), 'Holbrook': (3.65, 72), 'Ocoee': (3.58, 322), 'Maitland': (3.73, 217), 'Winthrop': (4.02, 127), 'Debary': (3.65, 40), 'Belmont': (3.93, 338), 'Aloha': (3.65, 152), 'Snellville': (1.5, 2), 'oviedo': (4.5, 1), 'DeBary': (3.71, 28), 'Hilliard': (3.42, 453), 'Bedford': (3.59, 157), 'Geneva': (4.21, 12), 'Milton': (3.67, 113), 'AUBURNDALE': (4.75, 2), 'Port Coquitlam': (3.48, 203), 'Montverde': (4.28, 9), 'College Park Ga': (4.5, 1), 'Pilot Knob Acres': (4.5, 1), 'Bay Lake': (3.93, 49), 'Whitehall': (3.12, 52), 'Weston': (3.83, 40), 'Niwot': (4.18, 38), 'Saint Cloud': (3.62, 183), 'Ridgefield': (4.17, 3), 'Cohasset': (3.72, 83), 'Bexley': (3.95, 55), 'Marblehead': (3.88, 161), 'Sandy Spring': (4.0, 3), 'W. Roxbury': (2.5, 1), 'Mattapan': (3.36, 48), 'East Walpole': (3.5, 30), 'Damascus': (4.29, 33), 'Plain City': (3.78, 60), 'Berkshire Township': (2.75, 2), 'Manor': (3.94, 77), 'Brockton': (3.36, 44), 'Morrow': (3.53, 15), 'Goldenrod': (3.0, 1), 'Oak Grove': (3.66, 32), 'Pataskala': (3.61, 75), 'Milwaukee': (3.5, 3), 'Spicewood': (4.39, 18), 'Needham Heights': (3.46, 24), 'Johnstown': (3.36, 18), 'Superior': (3.56, 55), 'Newtonville': (3.69, 48), 'Brookhaven': (3.72, 70), 'Hazel Dell': (3.12, 4), 'WINTER PARK': (3.5, 1), 'Christmas': (4.32, 14), 'Worthington': (3.7, 174), 'Rollingwood': (3.88, 12), 'Creedmoor': (3.69, 8), 'Altamonte Spg': (1.0, 1), 'Osteen': (4.08, 6), 'Walpole': (3.69, 55), 'South Weymouth': (3.79, 43), 'Vinings': (3.62, 8), 'Camas': (3.89, 71), 'Mableton': (3.26, 48), 'WINTER GARDEN': (3.0, 3), 'Gainesville': (4.0, 1), 'TIGARD': (3.5, 1), 'Galloway': (3.68, 28), 'East Boston': (3.29, 107), 'Orlando-Kissimmee': (4.0, 1), 'Lithonia': (4.17, 3), 'BURNABY': (2.83, 3), 'Grove city': (5.0, 2), 'Newton Highlands': (3.75, 51), 'Lake Buena Vista, Orlando': (2.0, 1), 'Harbor Islands': (4.25, 2), 'Sherwood': (3.5, 5), 'Roxbury': (3.31, 112), 'Grandview Heights': (3.89, 32), 'North Quincy': (3.29, 14), 'Manchaca': (4.39, 48), 'East Point': (3.12, 151), 'Medfield': (3.97, 15), 'North Portland': (5.0, 1), 'cambridge': (5.0, 1), 'St. Cloud': (3.74, 74), 'North Andover': (4.0, 16), 'Marysville': (3.5, 4), 'kissimmee': (2.8, 5), 'Sunbury': (3.31, 55), 'Upper Arlington': (3.73, 107), 'Dover': (4.29, 7), 'Avondale Estates': (4.13, 49), 'Readville': (4.5, 1), 'Newton Center': (3.88, 48), 'Eatonville': (4.25, 4), 'ORLANDO': (3.13, 30), 'E.Point': (1.5, 1), 'Newton U F': (3.86, 11), 'austin': (4.75, 2), 'Jeffries Point / Airport': (2.0, 1), 'Kerrville': (4.0, 1), 'N.Billerica': (2.5, 1), 'King City': (3.56, 16), 'Auburndale': (3.53, 34), 'Point Venture': (3.33, 3), 'longwood': (4.67, 3), 'West Medford': (3.83, 3), 'Mission Hill': (3.5, 1), 'Avon': (3.07, 53), 'West Austin': (3.75, 2), 'CASSELBERRY': (3.5, 1), 'St Cloud': (3.59, 16), 'Rockwood': (3.5, 1), 'Rio Rancho': (3.5, 1), 'Buena Ventura Lakes': (3.0, 5), 'Newton Upper Falls': (4.17, 15), 'Columbus - Clintonville': (3.5, 1), 'Longmont': (4.11, 14), 'SURREY': (3.0, 2), 'East Watertown': (3.6, 5), 'ATLANTA': (3.27, 11), 'Lithopolis': (4.33, 6), 'Union Park': (3.8, 5), 'Dr. Phillips': (5.0, 1), 'Mims': (3.38, 17), 'North Olmsted': (3.5, 1), 'West Jefferson': (3.79, 14), 'Nahant': (4.11, 14), 'East Arlington': (4.75, 2), 'North Weymouth': (3.58, 13), 'Ellenwood': (3.16, 28), 'Altamonte Springs ': (4.5, 1), 'Kennesaw': (4.5, 2), 'Sorrento': (3.75, 14), 'Lincoln': (4.14, 35), 'Heathrow': (3.47, 16), 'Zellwood': (4.1, 5), 'VANCOUVER': (4.0, 3), 'San Marcos': (2.83, 3), 'New Braunfels': (2.5, 1), 'Chuluota': (3.67, 6), 'Southwest Orlando': (3.5, 2), 'WINTER SPRINGS': (4.0, 1), 'Hapevile': (4.5, 1), 'Andover': (4.0, 14), 'East Weymouth': (3.76, 19), 'North Shore': (4.5, 1), 'Greater Vancouver A': (3.0, 3), 'REVERE': (1.5, 1), 'Cooper City': (4.5, 1), 'Wollaston': (2.75, 6), 'Championsgate': (4.08, 6), 'Maynard': (4.5, 1), 'NE Portland': (5.0, 1), 'burnaby': (4.0, 1), 'Blacklick': (3.84, 37), 'Steveston': (4.0, 2), 'Golden': (3.71, 7), 'Lockbourne': (3.17, 6), 'Obetz': (2.27, 13), 'Oklahoma City': (2.5, 1), 'AUSTIN': (3.73, 15), 'ChampionsGate': (4.0, 3), 'Champions Gate': (3.17, 24), 'Roxbury Crossing': (3.26, 33), 'Waban': (4.32, 11), 'Belle Isle': (3.77, 13), 'Carroll': (4.14, 7), 'TITUSVILLE': (2.5, 1), 'Lousiville': (4.5, 1), 'RichMond': (3.5, 1), 'Shawnee Hills': (2.0, 1), 'Miami': (4.5, 1), 'Heath': (2.0, 1), 'Harrisburg': (4.0, 2), 'PORTLAND': (3.42, 12), 'Lake Grove': (4.75, 2), 'Mid-Cambridge': (3.33, 6), 'SMYRNA': (3.0, 1), 'N Vancouver': (3.5, 1), 'Auatin': (5.0, 1), 'San Antonio': (3.17, 3), 'East Atlanta': (3.33, 3), 'Roswell': (3.75, 2), 'Vancouver BC': (2.5, 1), 'Greater Boston MA': (5.0, 1), 'PEABODY': (3.0, 1), 'Austin SW': (3.5, 1), 'Silverton': (3.0, 1), 'Driftwood': (4.13, 27), 'CLERMONT': (3.0, 1), 'Garfield': (4.5, 1), 'Monroe': (2.5, 1), 'Scottdale': (3.88, 24), 'Tigard (Portland)': (3.75, 2), 'Hutto': (4.5, 2), 'casselberry': (5.0, 1), 'Brevard County': (3.75, 2), 'Alafaya': (4.0, 8), 'Port St. John': (4.5, 3), 'Brookwood': (4.5, 2), 'Mount Sterling': (3.6, 5), 'Buford': (1.0, 1), 'Florida': (3.5, 1), 'Round Rock': (3.94, 9), 'Durham': (3.88, 4), 'Homan': (3.5, 1), 'Sherborn': (3.88, 4), 'Austin ': (3.0, 1), 'West Concord': (4.0, 5), 'Hanover': (3.76, 19), 'Aurora': (2.0, 1), 'Lower Mills': (2.5, 1), 'portland': (4.71, 7), 'Hillsbor': (4.5, 1), 'Four Corners': (3.57, 7), 'Oakland': (3.82, 11), 'Peachtree Corners': (3.33, 6), 'wakefield': (5.0, 1), 'Galena': (4.2, 15), 'EVERETT': (5.0, 1), 'Porltand': (5.0, 2), 'Altamonte Springs, Florida': (4.5, 1), 'Franklin Park': (4.0, 1), 'Historical Park': (5.0, 1), 'KISSIMMEE': (3.2, 5), 'Conley': (3.17, 9), 'South Natick': (3.83, 3), 'Milwauke': (4.5, 1), 'Newton L F': (2.9, 5), 'reading': (5.0, 1), 'Vanvouver': (1.0, 1), 'Erie': (3.23, 13), 'Bowen Island': (4.03, 20), 'FRAMINGHAM': (2.5, 1), 'Jamestown': (4.5, 1), 'Greater Vancouver': (3.3, 5), 'Harmony': (3.75, 4), 'Braintree ': (3.5, 1), 'Southwest Tampa': (4.0, 1), 'Haines City': (4.0, 2), 'Ladner': (2.88, 4), 'Ashville': (3.7, 10), 'Lockhart': (3.12, 4), 'Metro Orlando': (4.0, 1), 'atlanta': (4.0, 2), 'Winter park': (5.0, 2), 'Buckhead': (3.5, 5), 'Lago Vista': (4.25, 4), 'Phoenix': (1.5, 1), 'Fairview': (3.3, 5), 'Lake City': (3.06, 17), 'Columbus/Hilliard': (2.5, 1), 'West Point Grey': (5.0, 1), 'N Billerica': (3.0, 2), 'Point': (3.0, 1), 'Candler-McAfee': (1.5, 1), 'LAKEWAY': (2.5, 1), 'Altamonte Spring': (3.5, 2), 'Brice': (4.5, 2), 'North Lakeway': (3.5, 1), 'Collegepark': (3.0, 1), 'Van Alstyne': (2.5, 1), 'N. Weymouth': (3.0, 1), 'North Delta': (4.0, 2), 'stoneham': (4.5, 1), 'Sunset valley': (4.5, 1), 'TIgard': (4.5, 1), 'Walt Disney World': (3.0, 1), 'PICKERINGTON': (5.0, 1), 'Eldorado Springs': (4.0, 2), 'Greater Austin': (5.0, 1), 'Atlanta  (BKHD)': (3.5, 1), 'Wekiva Springs': (4.75, 2), 'apopka': (3.5, 1), 'SANFORD': (3.38, 4), 'OR': (3.5, 2), 'West Lake': (3.5, 1), 'Lions Bay': (4.0, 1), 'Winder': (1.0, 1), 'Washington County': (5.0, 1), 'Chestnut Hills': (4.0, 1), 'OVIEDO': (3.75, 2), 'South Buda': (4.5, 1), 'Austin - Westlake Hills': (4.0, 1), 'watertown': (5.0, 1), 'Sellwood': (4.5, 1), 'Alpharetta': (3.25, 8), 'Cedar Park': (2.6, 5), 'Woodstock': (2.5, 1), 'North Cambridge': (2.5, 1), 'Buena Vista': (4.0, 1), 'Alamonte Springs': (4.0, 1), 'Columbus - Lewis Center': (4.5, 1), 'Kings County': (5.0, 1), 'Lawrenceville': (3.83, 3), 'Austell': (2.25, 2), 'beaverton Or': (4.0, 1), 'St John': (3.0, 1), 'Belcarra': (4.75, 2), 'Orchards': (2.67, 3), 'BRAINTREE': (2.5, 1), 'Boring': (2.25, 2), 'Concourse C': (2.0, 1), 'Orlando, Florida': (4.5, 2), 'CLACKAMAS': (4.0, 1), 'Altanta': (2.0, 1), 'Port St John': (3.2, 5), 'Kissimee': (4.25, 2), 'DORCHESTER': (3.17, 3), 'Reunion': (3.33, 3), 'Rockport': (4.5, 1), 'Port Saint John': (3.0, 4), 'orlando': (3.75, 2), 'Macon': (1.5, 1), 'Lake Buena': (4.5, 1), 'East boston': (4.0, 1), 'Orlanto': (4.0, 1), 'Oak Square': (1.5, 1), 'Wilsonville': (4.83, 3), 'Marrietta': (2.5, 1), 'So. Weymouth': (3.0, 1), 'Bee Caves': (4.08, 6), 'Eastpoint': (3.75, 2), 'North Waltham': (3.17, 3), 'Grandview': (3.86, 7), 'East Vancouver': (4.5, 1), 'Austin texas': (4.5, 1), 'Southeast Orlando': (1.5, 1), 'LONGWOOD': (5.0, 2), 'medford': (4.0, 2), 'RICHMOND': (2.5, 2), 'Decatur, GA': (4.5, 1), 'Denver': (3.75, 2), 'Kissimmee,': (3.5, 1), 'Upper Arlngtn': (3.5, 1), 'HOLB': (3.5, 1), 'Altamonte Springs Orlando': (4.0, 1), 'COLUMBUS': (2.8, 5), 'West Pataskala': (3.0, 1), 'Berkshire': (2.75, 2), 'Winterpark': (4.5, 1), 'Commercial Point': (4.5, 3), 'Altamonte Sprin': (3.5, 1), 'Greater Boston': (5.0, 1), 'Schertz': (4.5, 1), 'Marshfield': (3.5, 1), 'Worcester': (5.0, 1), 'Hunters Creek': (4.75, 2), 'Toronto': (5.0, 1), 'Anmore': (4.25, 2), 'North Beverly': (3.0, 2), 'South Bloomfield': (2.7, 5), 'Hanscom Air Force Base': (2.5, 2), 'Dale': (5.0, 2), 'Kenansville': (4.17, 3), 'Westlake': (4.75, 2), 'BOULDER': (4.0, 1), 'South End': (3.17, 3), 'Greater Boston Area': (5.0, 1), 'West linn': (5.0, 1), 'Rockledge': (2.0, 1), 'Stoughton MA': (3.5, 1), 'Newwestminster': (3.0, 1), 'Riverdale': (2.0, 1), 'Boston College': (4.0, 1), 'Cloverdale': (2.5, 1), 'Lougheed': (3.5, 1), 'Millersport': (3.75, 2), 'Beavercreek': (4.0, 1), 'Hillard': (4.0, 2), 'Wellsley': (3.0, 1), 'Bayamon': (4.5, 1), 'MILWAUKIE': (5.0, 1), 'North Decatur': (2.83, 3), 'Broomfield': (3.58, 6), 'newton': (2.0, 1), 'Atlanda': (5.0, 1), 'Wakefield, Massachusetts': (4.0, 1), 'Bend': (4.5, 1), 'Troutland': (4.0, 1), 'Drippings Springs': (4.0, 1), 'Greater Vancouver Area': (2.5, 1), 'Southeast Austin': (4.0, 1), 'Wenham': (3.5, 1), 'Conyers': (2.5, 1), 'Mt Dora': (4.33, 3), 'Niederwald': (5.0, 1), 'Columbus - Hilliard': (4.5, 1), 'Marylhurst': (4.0, 2), 'Arling-n': (3.5, 1), 'HINGHAM': (2.5, 1), 'Hollis': (1.0, 1), 'Auston': (3.5, 1), 'North Vancouver District': (4.5, 1), 'Miami Beach': (1.0, 1), 'Back Bay': (4.0, 2), 'Belterra': (3.0, 1), 'BOSTON': (3.62, 4), 'N. Billerica': (3.5, 2), 'Victoria': (3.5, 1), 'Stouhgton': (5.0, 1), 'Bud': (4.0, 1), 'norwell': (5.0, 1), 'North Lamar': (4.25, 2), 'MEDFORD': (3.0, 1), 'Volente': (3.2, 5), 'Watertown,': (5.0, 1), 'McDonough': (3.0, 1), 'Spring Valley': (5.0, 1), 'Lousville': (4.0, 1), 'Gunbarrel': (3.5, 2), 'Portland-Gateway Plaza': (2.0, 1), 'Walnut Gardens  Boulder': (4.5, 1), 'Norwood Center': (4.0, 1), 'Colombus': (4.0, 1), 'Gwinnett': (2.0, 1), 'Fulton': (2.0, 2), 'Coumbus': (2.5, 1), 'Sommerville': (2.75, 2), 'Braintree Ma': (4.5, 1), 'Westlake Hills': (4.36, 7), 'Decatur ': (5.0, 1), 'Irvine': (5.0, 1), 'Pine Lake': (3.25, 2), 'Prontland': (5.0, 1), 'De Bary': (3.17, 3), 'LakeWay': (5.0, 1), 'Ococee': (3.0, 1), 'HIngham': (5.0, 2), 'east boston': (4.25, 2), 'North Scituate Village': (5.0, 1), 'boston': (4.75, 2), 'Gotha': (3.58, 6), 'Jeffries Point': (3.0, 1), 'Hays': (4.5, 1), 'Sharon': (4.33, 3), 'Lee Vista': (4.0, 1), 'E. Boston': (5.0, 1), 'Wimberley': (4.5, 1), 'DEDHAM': (2.75, 2), 'ALTAMONTE SPRINGS': (3.0, 1), 'Mission Viejo': (4.0, 1), 'Orlando ': (4.0, 1), 'Vancover': (3.75, 2), 'Nagadocaches': (1.5, 1), 'Brighton Newton': (5.0, 1), 'MIlton': (5.0, 1), 'Boston-Fenway': (3.5, 1), 'Arlington Heights': (2.5, 1), 'Bolder': (4.0, 1), 'St.Cloud': (1.75, 2), 'BrIghton': (2.0, 1), 'Del Valley': (1.5, 1), 'Kitsilano': (3.0, 1), 'Columbus ': (4.5, 1), 'Mareitta': (3.0, 1), 'Mustang Ridge': (2.5, 1), 'Newton Lower Falls': (3.9, 5), 'Lake Oswego, OR': (4.5, 1), 'Dallas': (4.5, 2), 'Granville': (3.0, 1), 'Leominster': (3.0, 1), 'Atlants': (5.0, 1), 'Lake Buena Visa': (4.0, 2), 'Clintonville': (4.0, 1), 'lake mary': (5.0, 1), 'acworth': (4.0, 1), 'Palm Bay': (3.0, 1), 'Sand Lake, Florida': (4.0, 1), 'milwaukie': (4.5, 1), 'El Cerrito': (5.0, 1), 'Sandy springs': (5.0, 1), 'Newburyport': (4.5, 1), 'Oveido': (2.5, 1), 'Lake Travis': (4.5, 1), 'Longwood Fl': (3.5, 1), 'Portand': (4.0, 1), 'Tillamoo': (4.5, 1), 'Austin.': (5.0, 1), 'Glendale': (3.5, 1), 'Orient': (2.67, 3), 'Monteverde': (4.0, 1), 'Felida': (3.5, 1), 'West Columbus': (2.0, 1), 'Druid Hills': (4.5, 1), 'S. Boston': (2.0, 1), 'Atlanta ': (4.0, 1), 'Chelmsford': (3.0, 1), 'Greater Vancouver Regional District': (4.0, 1), 'Austin, TX': (5.0, 1), 'Midway': (4.5, 1), 'Grove Port': (4.5, 1), 'Damascas': (3.5, 1), 'PORT COQUITLAM': (1.5, 1), 'NEW WESTMINSTER': (3.0, 1), 'Hanscom AFB': (2.75, 2), 'Sheridan': (1.5, 1), 'BURLINGTON': (2.25, 2), 'Fraser Heights': (4.5, 1), 'West Peabody': (3.75, 2), 'S Boston': (4.5, 1), 'Beecave': (3.0, 1), 'Polaris': (3.5, 1), 'BOSTON, HOTEL': (2.0, 1), 'VANCOUVER DT (BC)': (2.0, 1), 'Lake Austin': (4.0, 1), 'DUNWOODY': (5.0, 1), 'Ponce': (2.0, 1), 'Stoughon': (5.0, 1), 'Provincetown': (5.0, 1), 'Lake Monroe': (4.5, 1), 'Orlando Florida': (5.0, 1), 'Cleveland': (2.5, 1), 'Tewskbury': (3.0, 1), 'surrey': (3.0, 1), 'Sanford,': (2.5, 1), 'Liberty': (2.0, 1), 'Portland, OR': (5.0, 1), 'Clayton': (3.0, 2), 'Nashua': (4.0, 1), 'Atalanta': (4.5, 1), 'HILLSBORO': (3.0, 1), 'E Boston': (3.5, 1), 'Aloma': (4.5, 1), 'WOBURN': (3.75, 2), 'Griffin': (4.0, 1), 'COCOA': (2.5, 1), 'Mabelton': (4.5, 1), 'Hollbrook': (3.0, 1), 'ORLANDO HOTEL': (1.5, 1), 'BOSTON LOGAN AP': (1.5, 1), 'Carlisle': (4.25, 4), 'Metro Atlanta': (4.5, 1), 'BRA': (3.5, 1), 'columbus': (5.0, 1), 'ST. CLOUD': (3.0, 1), 'Beuna Vista': (5.0, 1), 'Winter Garden Fl': (5.0, 1), 'Babson Park': (4.5, 1), 'BEAVERTON': (4.75, 2), 'Dedham ': (5.0, 1), 'Downtown Austin': (4.0, 1), '51 Richard Beall Hwy 17-92': (2.0, 1), 'Altamonte': (4.25, 2), 'St Johns': (5.0, 1), 'DEBARY': (2.5, 1), 'Driftwood, TX': (5.0, 1), 'Danville': (3.0, 1), 'Watertowm': (5.0, 1), 'Winter springs': (3.25, 2), 'Orland': (4.5, 1), 'Fern park': (3.5, 1), 'Saint  Cloud': (3.5, 1), 'Pine Hills': (2.0, 1), 'Gillem Enclave': (4.5, 1), 'N.Reading': (2.5, 1), 'Smryna': (3.0, 1), 'WInter Park': (1.0, 1), 'norwood': (3.5, 1), 'New Westminister': (3.12, 4), 'Rivergrove': (4.0, 1), 'Austin Tx': (5.0, 1), 'Blendon Twp': (3.5, 1), 'Forest City': (2.5, 1), 'GRANDVIEW': (4.5, 1), 'Englewood': (1.5, 1), 'Happy valley': (3.75, 2), 'Beacon Hill': (3.5, 1), 'Wakefield Ma': (3.5, 1), 'Springfield': (3.5, 1), 'WALTHAM': (4.5, 1), 'NORTH VANCOUVER': (4.0, 1), 'NW Atlanta': (3.5, 1), 'Newton MA': (4.5, 1), 'Marlborough': (4.0, 2), 'Dripping Springs.': (5.0, 1), 'EAST  Boston': (5.0, 1), 'Lake Owego': (5.0, 1), 'Loughman': (4.5, 1), 'Marlbehead': (2.5, 1), 'Piedmont': (2.5, 1), 'Northwest Clackamas': (4.5, 1), 'DRIFTWOOD': (4.5, 1), 'Wrenthan': (4.0, 1), 'South Brookline': (4.0, 1), 'Jamaica  Plain': (3.5, 1), 'Norht Vancouver': (4.0, 1), 'Historic Milwaukie': (5.0, 1), 'San Jose': (4.0, 1), 'Wellesley,': (2.5, 1), 'Upper Arlignton': (4.0, 1), 'beaverton': (4.0, 1), 'Northlake': (3.5, 1), 'Atlanta (Georgia Tech)': (3.0, 1), 'WESTERVILLE': (5.0, 1), 'Bastrop': (5.0, 1), 'Kingston': (4.5, 1), 'Hampton': (4.0, 1), 'Oak Bluffs': (5.0, 1), 'Buckhead, Atlanta': (5.0, 1), 'Gold Hill': (4.0, 1), 'Waterford Lakes': (3.0, 2), 'Beaverton (Portland)': (4.5, 1), 'Westford': (4.5, 1), 'vancouver': (3.5, 1), 'Etna': (4.5, 3), 'Winter Spring': (5.0, 1), 'Cassselberry': (4.0, 1), 'Milwaulkie': (5.0, 1), 'Braintee': (3.5, 1), 'Ocoee Fl': (4.0, 1), 'Perimeter': (2.5, 1), 'Boston-Winthrop': (5.0, 1), 'LAKE CITY': (2.5, 1), 'Clarkson': (1.5, 1), 'Pinehurst': (2.0, 1), 'DUBLIN': (4.0, 1), 'brighton': (3.0, 1), 'Brookline Village': (3.0, 1), 'San dy': (4.5, 1), 'Georgia': (3.5, 1), 'Oakhill': (2.0, 1), 'Fairburn': (4.0, 1), 'Milwuakie': (3.5, 1), 'Lilburn': (4.0, 1), 'Hiliard': (4.5, 1), 'West Roxury': (4.0, 1), 'Arvada': (3.0, 1), 'West Plant': (4.0, 1), 'Marble Cliff': (4.0, 1), 'Merrit Island': (4.0, 1), 'Doctor Phillips': (3.0, 1), 'UPPER ARLNGTN': (4.5, 1), 'CONLEY': (3.0, 1), 'Portland-Eastport Plaza': (3.0, 1), 'DAVENPORT': (2.5, 1), 'Northeast Orlando': (5.0, 1), 'Port coquitlam': (4.0, 1), 'Orlando Fl': (4.0, 1), 'Thoroughbred Estates': (4.5, 1), 'Central': (4.5, 1), 'Charleston': (5.0, 1), 'Dell Valley': (4.0, 1), 'SOMERVILLE': (3.0, 2), 'Quincy Center': (3.5, 1), 'South Waltham': (4.0, 1), 'PORTLAND AP': (2.0, 1), 'Altamonte  springs': (4.5, 1), 'Winter Park ': (2.5, 1), 'Morgan Hill': (5.0, 1), 'Autin': (4.0, 1), 'Amlin': (4.0, 1), 'Beaverton-Aloha': (4.0, 1), 'Norfolk': (3.5, 1), 'Newton Upper Fall': (3.5, 1), 'Dripping springs': (4.0, 1), 'Vancovuer': (5.0, 1), 'Sand Lake': (3.5, 1), 'Newton Corner': (4.0, 1), 'Downtown Vancouver': (4.0, 1), 'Columbus North': (2.5, 1), 'Kelowna': (4.5, 1), 'Portland Oregon': (4.5, 1), 'Alton': (4.5, 1), 'Delta Park': (3.0, 1)}
+
+Percentage of open businesses: 76.75% (123,248)
+
+Number of duplicated records: set()
+
+Suspiciously large number (1000 or greater) of businesses per address: []
+
+Places with incorrect values of latitude and longitude, as per NW quadrant: [('Jamaica Plain', (42.316877, 71.113271))]
+
+Wrongly formatted postal codes: [('ON', 'Burnaby', 'V5H 4M', 49.2282682, -122.9994237), ('BC', 'Vancouver', 'V6B 1GB', 49.2821414, -123.1090685), ('BC', 'Richmond', 'V7B 0B', 49.1981346125, -123.1404415146), ('DC', 'Vancouver', 'V5Y 1P6', 49.2630215, -123.1106835), ('WA', 'North Vancouver', 'V7M 1A5', 49.3118227748, -123.0858790351), ('BC', 'Delta', 'V4K E2', 49.1117375, -123.0526096), ('BC', 'Vancouver', 'V6B 2JA', 49.2820578, -123.1043636)]
+
+Wronly formatted cities: ['W. Roxbury', 'Lake Buena Vista, Orlando', 'E.Point', 'Jeffries Point / Airport', 'N.Billerica', 'Tigard (Portland)', 'Altamonte Springs, Florida', 'Columbus/Hilliard', 'N. Weymouth', 'Orlando, Florida', 'So. Weymouth', 'Decatur, GA', 'Kissimmee,', 'Wakefield, Massachusetts', 'Arling-n', 'N. Billerica', 'Watertown,', 'Tigard (Portland)', 'E. Boston', 'Lake Oswego, OR', 'Sand Lake, Florida', 'Austin.', 'S. Boston', 'Austin, TX', 'BOSTON, HOTEL', 'VANCOUVER DT (BC)', 'Portland, OR', '51 Richard Beall Hwy 17-92', 'Driftwood, TX', 'N.Reading', 'Dripping Springs.', 'Wellesley,', 'N. Billerica', 'Orlando, Florida', 'Buckhead, Atlanta', 'Beaverton (Portland)']
+
+Wronly formatted states: ['ABE']
+
+Wrongly formatted addresses: ['Brewer St', 'Museum Pl', 'Shell Food Mart', 'Gay St', 'Walt Disney World Resort', 'The Rose Kennedy Greenway', 'Commodore Plz', 'Turner Field', 'One Nelson Ter, Ste D', 'Hillcrest Pool', 'Quincy Market', 'One Audubon Rd', 'Arbor Lodge Neighborhood', 'Magic Kingdom', 'Mall Rd', 'Jason Street And Gray St', 'Glendoveer Fitness Trl', 'Ann And Roy Butler Hike And Bike Trl', 'Copley Sq', 'Floridian Way', 'One Long Wharf', 'Long Wharf', 'Monsen Rd', 'Pioneer Courthouse Sq', 'Walthall St SE', 'Epcot', 'France Pavillion Ave Of The Stars', 'Insertection Of Sw Barrows And Sw Horizon', 'One Jeff Fuqua Blvd, Main Terminal By Food Court - A Side, Orlando International Airport', 'S Terminal Pkwy', 'Seuss Lndg', 'Main Street & Broadway St', 'One Broadway', 'Florida Ctr', 'One Ave De Lafayette', 'Harvard/Holyoke Gate', 'Dorchester Ave And W Broadway', 'Boston-Logan International Airport', "George's Island", 'Commercial Drive', 'Exposition Blvd', 'Backlot Dr', 'Lillooet Road', 'Lenox Park Cir', 'Powell Street', 'Bounded By Playstead Rd And Morrissey Blvd', "Downtown Disney's Westside", 'SW Berthold St', 'S Studio Dr', 'West Broadway and Arbutus', 'Asia', 'The Green Castle Food Ct', 'Boston University', 'Piedmont Ave And Renaissance Pkwy', 'Pleasant Hill', 'Exposition Blvd', 'Government Ctr', 'Columbia Point', 'W Georgia Street', 'Holyoke Ctr', 'Universal Studios', 'Atlanta', 'Briar Ridge Dr', 'Twelve Broad Street', 'Basement Of Dudley Lehman Hall Harvard Yard', 'Cnr Smithe Street & Pacific Boulevard', 'Guildford Way', 'W Wilson Bridge Rd', 'Intersection Of Town St And Lucas St', 'Magic Kingdom', 'Walden St', 'One Financial Ctr', 'Walt Disney World Resort', 'Cripple Creek Trail', 'Forest River Park', 'One India St', 'Faneuil Hall Marketplace', "Disney's Hollywood Studios Sunset Blvd", 'Lloyd Ctr', 'Clinton St', 'Massachusetts Ave & Bedford St', 'Commonwealth Ave And Beacon St', 'North Washington St', 'Natick Mall', 'Falls Dr', 'First St Bridge', 'Penny Ln', 'Commercial St', 'One Hartsfield Centre Pkwy', 'Holmes Street & E Columbia Street', 'SW Park And Hall', 'SE Peacock Lane Between Belmont And Stark', 'Center St And Beacon St', 'Centre Street Parking Lot', 'Washington Sq', 'Yankee Division Hwy', 'Logan International Airport', 'Lakefield Dr', 'Tom McCall Waterfront Park', 'Hartsfield Airport', 'Barton Creek Mall', 'Deer Creek Lodge & Conference Ctr', "Disney's Hollywood Studios Sunset Blvd", 'Peachtree Corners', 'Boston Harbor Hotel', 'N Lombard And N Chautauqua', 'Polynesian Boat Dock', 'International Gateway', 'Port Columbus International Airport', 'The Long Ctr', 'SW Council Crest Dr', 'Logan International Airport', 'Charlestown Navy Yard', 'Boylston & Tremont St', "Disney's Animal Kingdom Walt Disney World", 'St Paul St', 'One Jeff Fuqua Blvd', 'King Plow Arts Ctr', 'SW Zoo Rd', 'Highland Ave NE', 'Fantasyland', 'Hill Rd N', 'Main Street', 'Tremont St', 'SW Sunset Blvd And Sw Capitol Hwy', 'N Lombard And N Woolsey', 'Washington St & Dudley St', 'Harvard University To Harvard Medical School', 'Bus Station', 'Hartsfield-Jackson Airport', 'Singer Hill Rd', 'Port Columbus International Airport', 'SE Spokane St at SE Oaks Park Way', 'Purchase St High St', 'Mall Rd', 'Stanley Park', 'Washington Street', 'Jeff Fuqua Blvd', 'Bedwell Bay Rd', 'SW Park And Salmon St', 'Mystic River Reservation', 'W Ponce De Leon Ave And W Trinity Pl', 'Alewife Brook Parkway and Cambridge Park Drive', 'Broadway', 'One Broadway', 'SE McLoughlin Blvd And Bybee St', 'Hastings St. & Thurlow St. West', 'Grandview Park, Commercial Dr', 'SW Hunziker Rd And Sw Wall St', 'YVR International, Ricmond', 'Portland International Airport', 'Lothrop St', 'S Dekalb', 'Lowell St & Main St', 'Indian Trl', 'Gaylord Palms Resort & Convention Ctr', 'Hoffner/Orange Ave', 'Concord Ave', 'First Street', 'Park Street T Stop', 'Capital Plaza Ctr', 'Stanley Park', 'Exposition Blvd', 'Natick Service Plz', 'Fellsway E', 'Causeway St', 'Brandeis University', 'Beach Avenue, Between Thurlow and Bute', 'Fell Ave & Larson Rd', 'Revere Beach', 'Orlando International Airport Traminal', 'N Lombard St', 'SW Capitol Hwy', 'Magic Kingdom', "Disney's Typhoon Lagoon", 'Colony Farm Rd', 'Spindler Rd', 'Chelsea St', 'PNE Forim, Hastings and renfrew', 'One Canal Park', 'Magic Kingdom Park', 'Georgetown Realty', 'Beverly Airport', 'Fenton St', 'Boston Logan Airport', 'Beatty And Dunsmiur', 'Sudbury St', 'Atlanta International Airport Concourse E', 'Park St', 'Stratton Student Center - Lower Level', 'Charlestown Navy Yard', 'Hogsmeades Main St', 'Queen Elizabeth Park', 'New England', 'NW Sauvie Island Rd And Willamette River', 'Atl Concourse C', 'Walhalla Rd', 'Disney Spgs', 'Magic Kingdom Park', 'World Center Dr', 'One Huntington Ave, Unit B', 'Follett St', 'Mill St', 'Magnolia St', 'Clackamas Town Ctr', 'Cartlandia', 'Copley Pl', 'Highland Rd. & Pond Ave.', 'Alewife Brook Pkwy Alewife Station And Mystic Valley Pkwy', 'Edgewood Ave & Delta Pl', 'Lady Bird Lake Trl', 'Graceland Blvd', 'Logan International Airport', 'Perimeter Mall', 'Disney World', 'Pinballz Kingdom', 'Granville Street and Cordova Street', 'Tudor St', "Disney's Hollywood Studios Echo Lk", 'Fantasyland', 'Browns Ferry Park', 'Logan International Airport', 'Magic Kingdom Dr', 'Baseline Rd', 'Magic Kingdom Dr', 'Lanier Dr', 'Orlando International Airport, Main Terminal- Food Court', 'SE Holgate Blvd', 'Austin Texas', 'Boylston St At Arlington St', 'Tillicum Street', 'Epcot Ctr', 'Jeff Fuqua Blvd', 'Bos Airport', 'Tobin Memorial Bridge', 'University Of Texas At Austin', 'Portland International Airport', 'South Station', 'Epcot Resorts-Hollywood Studios Connector', 'Piedmont Ave At Lindbergh Dr', 'SE Salmon St & SE Water Ave', 'Exposition Blvd', 'Burnaby Lake', 'Peacock Salon', 'East-West Bike And Waking Path', 'Stramski Way', 'Asia', 'Horizons W Orlando', 'Whitewater Creek Rd NW', "Disney's Hollywood Studios", 'Burnside Bridge', 'Rental Car Center Pkwy', "Disney's Coronado Spgs", 'Germany Pavilion', 'Walt Disney World Resort', "Disney's Animal Kingdom Ldg", 'Beacon St', 'Lents Park', 'SW Naito Pkwy', 'SW Corridor Path', 'Royal Arch Trl', 'Mallett Integrity Team', 'Post Rd', "Epcot's Magic Eye Theater", 'General Mabry Dr', 'Low Water Crossing Rd', "Disney's Hollywood Studios Commissary Ln", 'Barton Creek Greenbelt Trl', 'One Harborside Dr', 'Northpointe Plz', 'Dayton St And Clementine Park', 'Dedham St', 'American Adventure', 'Cat Hollow Dr', 'Corner Of Oxford St', 'Ave Lomas Verdes', 'Sunset Blvd', 'Alewife Brook Pkwy And Cambridge Park Dr', 'Mt Tabor Park', 'Atlanta Hartsfield Jackson International Airport', 'One Park Ln', 'Mallory Cave Trail', 'Sunshine Canyon Dr', 'One Grand Cypress Blvd', 'Somerville Ave & Massachusetts Ave', 'Cambridge St', 'E Blackson Ave', 'Magic Kingdom Park', 'Town Lake - South Side', 'One Lakeway Centere Ct, Ste A', 'Lynn Shore Dr & Prescott Rd', 'Red Line', 'Neal Dental Group', 'Fantasyland', 'Boston Logan Term E Food Ct', 'Central Square', "Disney's Animal Kingdom Theme Park", 'Euclid/Moreland', 'One Jeff Fuqua Blvd', 'Sunset Blvd', 'Raeburn Street', 'Seven Seas Lagoon', 'Hartsfield-Jackson Atlanta International Airport', 'Logan Airport', 'Orlando International Airport', 'Magic Kingdom Dr', 'Mystic Valley Pkwy', 'New Brighton Rd and Yale St, Hastings-Sunrise', 'Tom McCall Waterfront Park', 'Buford Hwy', 'SW Hall Blvd', 'Albany St', 'Copley Square', 'Walt Disney World Resort', 'Airport', 'SW Sexton Mountain Dr', 'Park & Winter Streets', 'One Westinghouse Plz, Bldg D', 'Austin Airport', 'Walt Disney World Resort', 'North Ave', 'N High', 'Northlake Mall', 'Magic Kingdom Park Main St', 'Dawson Rd', 'Fantasyland', 'Lloyd Ctr', 'E Washington St', 'S Peachtree Creek Trl', 'Perimeter Rd', 'Hollywood Blvd', 'Orlando International Airport', 'Orlando Airport', 'College Ave & Broadway', 'Nashua St', 'Bishop Allen Drive & Norfolk Street', 'McLendon Ave', 'Congress St', 'Robson Street & Howe Street', 'Ttc Monorail Station', 'N Washington Square', 'Portland Saturday Market Food Ct', 'One Porsche Dr', 'Drabbington Way', 'The Florida Mall', 'Orange Ave And Jefferson Ave', 'Cobb Pkwy And Paces Mill Rd', 'Marketplace', 'New Fantasyland', 'Portland International Airport', 'West Newton At Columbus', "Cabela'S Drive & Old San Anton", 'Pleasure Island', 'Worthington Farmers Market', 'Barton Creek Mall', 'Hartsfield International Airport', 'Turkey Hill Ln', 'Polynesian Boat Dock', 'One Brattle Square', 'Mill Run Square', 'SW Macadam Ave & Nebraska St', 'Beacon Ln', 'NW Marine Drive', 'Burkholm Rd Dixie Way', 'Harrison And Concord St', 'Hotel Plaza Blvd', 'Atlanta Hartsfield Jackson Intl Airport', 'Wheelock College', 'Vancouver Convention Center', 'South Congress Ave', 'Summit Ave', 'Conservation Way', 'Charlestown Navy Yard', 'Bethany Meadows Park', 'Fairway', 'Nicholson Dr', 'Easton Town Ctr', 'Mills Ave At Central Blvd', 'Columbia Point', 'Studioplex', 'Magic Kingdom', 'One Main St', 'Between Amory St And Chilton St', 'Adventureland', 'SW Marquam St & Sam Jackson Park Rd', 'International Gateway', 'Long Wharf', 'Atlantic Ave & Richmond St', 'Orlando Airport', 'Portland Airport', "Disney's Animal Kingdom Lodge Resort", "Disney's Grand, Fl oridian", 'Richards Street', 'Far W Blvd & Wood Hollow Dr', 'Magic Kingdom', 'Downtown Disney W Side', 'Grandview Ave And Goodale Blvd', 'Hartsfield-Jackson Atlanta International Airport', 'Washington St At Hyde Park Ave', 'Storrow And Memorial Dr', 'Liberty Square', 'Disney Spgs', 'Lakeside Village Ln', 'Rottenwood Creek Trail', 'Prince Pizzeria', 'Harambe Vil', 'Dollarton Hwy', 'Orlando Intl Airport', 'Atlanta Hartsfield Airport', 'W Broad St', 'Olde Stage Rd', 'NW Erwin O Reiger Memorial Hwy', 'War Veterans Memorial Fwy', 'Union Square', 'SW Hall Blvd', 'Terminal C', 'Pioneer Square Farmers Market', 'Downtown Winter Park', 'Charlestown Navy Yard', 'Animation Courtyard', 'Piedmont Park', 'City Hall Plz', 'Dorchester Ave At Southhampton St', 'Hartsfield-Jackson International', 'Suite Salons And Spa', 'Epcot Center', 'Louis Pasteur Ave', 'Dewey Sq', 'Massachusetts Ave', 'S Quinlan Park Rd', 'Orlando-Sanford Intl Airport', 'Sq One Shopping Ctr', 'Hartsfield Airport Terminal F', 'Hogsmead Main St', 'Washington St', 'Longfellow Bridge', 'West Side', 'East Atlanta Village', 'Lincoln St', 'Munroe St At Bigelow St', 'Port Columbus International Airport', 'Seaport World Trade Center Boston', 'New Broad & Jake St', 'Rose Kennedy Greenway High St', "Disney's Hollywood Studios", 'Celebration Blvd', 'SW Capitol Hwy To St Johns', 'SE Water Ave & Hawthorne Blvd', 'Magic Kingdom', 'Baden Powell Trailhead, Panorama Dr', 'Festival Beach Boat Ramp Nash Hernandez Senior Rd', 'Fraser Heights', 'South Oval Dr', 'Harrison Ave', 'Convention Ctr', 'Charlestown Navy Yard', 'Beacon St And Harvard St', 'Universal City Walk', 'Table Mesa Shopping Ctr', 'Griggs Rd', 'Denman Street and Davie Street, English Bay', 'Grampian Way', 'Park & Tremont St', 'Garden St', 'West Slaughter Ln', 'SW Park And Main St', "Disney's Hollywood Studios", 'SE Water And Morrison', "Winter Park Farmer's Market", 'Campbell Park', 'Shirley St', "Disney's Animal Kingdom Theme Park", "Disney's Animal Kingdom", 'Boston Public Garden', 'Rose Quarter Benton Lot', 'Hartsfield-Jackson International', 'Ruggles St', 'Epcot', 'Portland Saturday Market', 'The Ramada Gateway', 'Hartsfield-Jackson Atlanta International Airport', 'One Ave De Lafayette', 'Walt Disney World', 'Hollywood Blvd', 'Copley Square', 'Dean Rd', 'SW Harbor Way', 'Krog S NE', 'Candler Park', 'One Burlington Mall Road', 'Old Derby Rd', 'Mansfield St', 'Seaport World Trade Ctr', 'Hartsfield Airport', 'Massachusetts Turnpike Natick Eastbound Service Ctr', 'Kenny Rd', 'One Black And Gold Blvd', 'One Burlington Mall Road', 'Orlando International Airport', 'Sumner St', 'Commonwealth Ave & Boston Univ Bridge', 'Wallace St & Discovery St', 'Primary Care Clinic Of Austin', 'Clackamas Town Ctr', 'South Orange Ave. and Grant St.', 'Pleasant St & Massachusetts Ave', 'Granville Skytrain Station, Granville St & W Georgia St', 'Square One Mall', 'Pleasure Is Boat Dock', 'Barton Creek Greenbelt Trl', 'Beacon St', 'The Portland Farmers Market', 'Bayview Street Steveston Village', 'Tilikum Crossing', 'Chatham Street', 'N Lamar Blvd And Research Blvd', 'Tremont Rd & Zollinger Rd', 'Storrow Dr', 'Square One Mall', 'NE Bryant St', 'N Fremont St & N Mississippi Ave', 'Congress St', 'Morroco Service Rd', 'Belmont Center Municipal Lot', 'Walt Disney World', 'One Marina Park Dr', "Cambridge Street And O'Brien Hwy", 'Lincoln Ave', 'Sunset Blvd', 'China Pavilion - Epcot', 'Mavell Rd', 'Loop Rd', 'Gracy Farms Ln & MoPac', 'Garden St And Massachusetts Ave', 'Ronan Park', 'Five Cabot Rd', 'Livingstone Ave', 'Walt Disney World Resort', 'Terminal B', 'Albion Street At Lowell St', 'Boston Common', 'One PO Square', "Disney's Hollywood Studios Muppets Courtyard", 'Pearl District & Old Town', 'Harvard Square', 'Stanley Park', 'Magic Kingdom Dr', 'Constitution Rd', 'Contemporary Resort', 'Essex And Washington St', 'Walt Disney World Resort', 'Babe Ruth Rd & William J Day Blvd', 'Buena Vista Dr', 'E Central Blvd And N Eola Dr', 'North Ave & Freedom Pkwy', 'Copley Plz', 'Hartsfield International Airport', 'Tyler St', 'Hartsfield-Jackson Atlanta International Airport', 'Atlanta Hartfield-Jackson International Airport', "Saint Mary's St & Commonwealth Ave", 'Massachusetts Eye And Ear Infirmary', 'Bunker Hill St', 'Commonwealth Ave And St Marys St', 'The Mall At Chestnut Hill', 'Krueger Ln', 'Kitty Hawk Dr NE', 'Revere Beach Pkwy', 'Alewife Brook Pkwy', 'Epcot World Showcase', 'South Orlando', 'Universal Studios, Fl orida, The Wizarding World of Harry Potter - Diagon Alley', 'St Johns Plz', 'Duncklee St', 'One Bennett St', 'One Margaret Mitchell Sq', 'Allston St', 'Corner of Washington St & Essex St', 'SE Ivon St And Boring', 'Commerical St', 'Square One Shoppingctr', 'SW Main St', 'Pond Ln', 'Ponce De Leon Ave / Moreland Ave', 'South Congress', 'Various Locations Including Cafe Dance Mt Bonnell', 'Wyoma Square Training Ctr', 'Boston Common', 'Disney Spgs', 'China Pavilion', 'Commerce Dr', 'Tom McCall Waterfront Park', 'Apple Spice Junction', 'Clarendon Hill Or Davis Square - Sullivan Square Station', 'Barnet Hwy', 'Atlanta International Airport', 'Elm', 'SW Macadam Ave & Nebraska St', 'W Burnside St & NW Broadway', 'Nickelodeon Way', 'Park Dr At Jersey St', 'N Mississippi Ave', "Disney's Animal Kingdom", 'Faneuil Hall Marketplace', 'Fiesta Gardens', 'Bare Cove Park Dr', 'Hawthorne Bridge', 'One Main St', 'Lake Street And Arlington Rd', 'Encinas Pkwy', 'Minoru Park', 'Ben White And South Congress', 'Boston Marriott Burlington', 'Stanley Park Dr', 'Cabbagetown Park', 'Wharf St', 'W Colonial Dr & Marshall Farms Rd', 'Brighton Center - Downtown Boston', 'The Lawn At Amy Donovan Plz', 'Colonial Homes Dr', 'Confluence Park And Worthington', 'Day St & Herbert St', 'Earthquake Backstage Rd', 'Hyatt Regency Grand Cypress', 'W Orange Trl', 'One Federal St', 'Hartsfield-Jackson Atlanta Airport, Terminal C, Terminal C', 'Newport Ave Cleveland St', 'Humphrey St', 'Pleasant St', 'Summer St & Atlantic Ave', 'Plaza De Cesar Chavez Park', 'Sumner Rd', 'High St & Atlantic Ave', 'Gallery Of Salons', 'Disney Springs Marketplace Buena Vista Dr', 'Denman St', 'Howe Sound Crest Trail', 'Marine Drive', 'Medford Square To Sullivan Station', 'Faneuil Hall Marketplace', 'Union Jack Liquor Parking Lot', 'Universal Studios', 'Neponset Circle and Hallet St', 'One Harbor St', 'Bristol Grande Way', 'Harambe Village', 'Flat Shoals & Glenwood Ave', '-', 'Walt Disney World Resort', 'Centennial Way', 'One Bay State Rd', 'Enneking Turtle Pond And Dedham Parkways', 'Robson And Granville', 'Ferguson Point, Stanley Park Drive', 'Geer Canyon Rd', 'Walt Disney World Resort', 'Hartsfield/Jackson International Airport', 'One Cnn Center Plz', 'N Edison St And Pittsburg Ave', 'Massachusetts Ave Bridge', 'Dorchester Ave And Charles St', 'N Broadway And Willamette River', 'Charter St', 'SW Sunset Blvd And Sw Capital Hwy', 'Austin Bergstrom', 'Burrard & Robson', 'Davies Avenue', 'Park Access Road', 'US Departures, Vancouver International  Airport', 'Storrow Dr', 'Stanley Park', 'Ridgeview Dr & Dalla-Tina Ave', 'Logan Memorial Way', 'Old Fredericksburg Rd And Smith Oak Trl', 'Bolyston & Darthmouth', 'Plant St', 'One Devonshire Pl', 'Massachusetts Ave At Sw Corridor Park', 'Lake Nona Town Ctr', 'White Way At Main St', 'Walt Disney World Resort', 'New Fantasyland', 'Surface Rd & Beach St', 'Quincy Shore Dr', 'Hartsfield Jackson Atlanta International Airport', 'Atlanta International Airport', 'Mystic Ave', 'Carelton St', 'Leo Birmingham Pkwy', 'Natick Town Common', 'Magic Kingdom', 'Pink West Aesthetics', 'Hartsfield-Jackson International', 'Cambridge & Hampshire St', 'Epcot International Gtwy', 'Park Street T Station Boston Common', 'Red Cleveland Blvd', 'Edgewood Ave', 'Tenean St', 'Euclid Ave And Elizabeth St', 'Liberty St', 'Harvard Station Via Mt Auburn St', 'Metropolitan Pkwy N', 'Japan Service Rd', 'Collier Rd At Walthall Dr', "Disney's Contemporary Resort", 'Mco Airport', 'Porter Square', 'NW Fremont Bridge', 'NW Marine Drive & Tomie Street', 'North Courtenay Pkwy', 'Logan International Airport', 'Davie Street', 'One Jeff Fuqua Blvd', 'Lonsdale Quay', 'Powell Blvd At The Willamette', 'Sasmat Lake', 'Japan Service Rd', 'Two Red Cleveland Blvd', 'Southeast', 'Prescott St', 'McCaslin Blvd & Washington Ave', 'Harvard Yard', 'Old Port Royale', 'Walt Disney World', 'Newton Ctr', 'Rowlands Sayle Rd', 'Pender Street', 'Morrison St And Willamette River', 'Four Points Sheraton Hotel', 'Cambridge Health Associates', 'Second Floor Of The Imagination Pavilion', 'Orlando International Airport', 'Boston Logan International Airport', 'Blue Line', 'Cmh Columbus Airport', 'Elizabeth Carruthers Park', 'Downtown Disney Marketplace', 'Sunset Blvd', 'Burlington Mall Rd', 'Atlanta-Hartsfield Airport', 'World Showcase', 'Turner Field', 'Summer St', 'E Washington St', 'Harvard Law School', 'Sylvan / Cleveland / Harris / Oakleigh', 'Porter Sq', 'Lake Eola Park', 'Route One S', 'Safeway Shopping Ctr', 'African Outpost Epcot', 'One Design Center Pl', 'Bremen St And Gove St', 'Shoppes At Lavista, Ste C', 'John Howell Park', 'Prince St Snow Hill St', 'Lions Gate Bridge', 'Disney Springs Marketplace Buena Vista Dr', 'Rock Creek Trl', 'Easton Town Ctr', 'Washington St & Talbot Ave', 'Kittredge Loop Dr', 'Ring Rd', 'Magic Kingdom', 'Derby Square', 'One General Way', 'Beacon & Sutherland', 'Lillooet Rd', 'N Saint Johns Ave', 'Cross Seminole Trl', 'South Terminal Pwy', 'Brownwood Park', 'Epcot', 'SE To Sw Tacoma St', "John's Lndg", 'Disney Saratoga Springs', 'Wayside Commons', 'Pearl St & Green St', 'Universal Studios, Fl orida', 'Flat Shoals Blvd', 'Hartsfield Atlanta Airport', 'Lagoon Dr, Stanley Park', 'Hartsfield Jackson International Airport Atrium', 'Boston College', 'N Bryant St And Delaware Ave', 'Magic Kingdom Dr', 'Browngate Road', 'Davie St And Burrard St', 'One Lakeway Centre Ct, Ste B, Austin Oral & Maxillofacial Surgery', 'Dam Rd', 'Sq One Shopping Ctr', 'S Shore Plz Rd', 'Hanover St', 'Arc Far West Medical Tower', 'Woodlawn', 'Alberta Arts District', 'Dewey Sq', 'Caring For All', 'Hartsfield Atlanta International Airport', 'Austin Bergstrom Int', 'S Studio Dr', 'Between The North End And The Financial District', 'E Buena Vista Dr', 'Washington St And Winter St', 'Italy Pavillion', 'Scholls Ferry & SW N', 'Swampscott Rd', 'Easton Town Ctr']
+
+Number of invalid values of lat, long or stars: 0
+
+Percentage of wrongly formatted postal codes: 0.5%
+
+Number of wrongly formatted postal codes: 7
+
+Percent of wrongly formatted cities: 0.02242%
+
+Number of wrongly formatted cities: 36
+
+Percent of wrongly formatted states: 0.00062%
+
+Number of wrongly formatted addresses: 810
+
+Percent of wrongly formatted addresses: 0.50441%
+
+Number of wrongly formatted states: 1
+
+Number of wrongly formatted hours: 0
+
+Basic info table: 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 160585 entries, 0 to 160584
+Data columns (total 14 columns):
+ #   Column        Non-Null Count   Dtype  
+---  ------        --------------   -----  
+ 0   business_id   160585 non-null  object 
+ 1   name          160585 non-null  object 
+ 2   address       153859 non-null  object 
+ 3   city          160585 non-null  object 
+ 4   state         160585 non-null  object 
+ 5   postal_code   160475 non-null  object 
+ 6   latitude      160585 non-null  float64
+ 7   longitude     160585 non-null  float64
+ 8   stars         160585 non-null  float64
+ 9   review_count  160585 non-null  int64  
+ 10  is_open       160585 non-null  int64  
+ 11  attributes    145593 non-null  object 
+ 12  categories    160470 non-null  object 
+ 13  hours         133244 non-null  object 
+dtypes: float64(3), int64(2), object(9)
+memory usage: 17.2+ MB
+
+
+Description table: 
+                 count       mean         std         min         25%        50%        75%          max
+latitude      160585.0  38.759794    7.138042   27.998972   30.355886  42.177366  45.458531    49.490000
+longitude     160585.0 -94.266212   19.975446 -123.393929 -122.589583 -84.383281 -81.288501    71.113271
+stars         160585.0   3.656954    0.943604    1.000000    3.000000   4.000000   4.500000     5.000000
+review_count  160585.0  51.964548  130.030448    5.000000    8.000000  17.000000  44.000000  9185.000000
+is_open       160585.0   0.767494    0.422431    0.000000    1.000000   1.000000   1.000000     1.000000
+
+Correlation table for numerical values: 
+                 stars  review_count   is_open
+stars         1.000000      0.034220  0.073742
+review_count  0.034220      1.000000  0.037369
+is_open       0.073742      0.037369  1.000000
+
+Number of null values per attribute: 
+business_id         0
+name                0
+address          6726
+city                0
+state               0
+postal_code       110
+latitude            0
+longitude           0
+stars               0
+review_count        0
+is_open             0
+attributes      14992
+categories        115
+hours           27341
+dtype: int64
+
+Number of businesses per ciy per state: 
+                                           address
+state city                                        
+TX    Austin                                 20431
+OR    Portland                               17271
+GA    Atlanta                                12123
+FL    Orlando                                10271
+BC    Vancouver                              10109
+MA    Boston                                  7761
+OH    Columbus                                6472
+WA    Vancouver                               2900
+CO    Boulder                                 2441
+MA    Cambridge                               2370
+OR    Beaverton                               2141
+BC    Richmond                                1777
+      Burnaby                                 1713
+FL    Kissimmee                               1686
+GA    Decatur                                 1367
+FL    Winter Park                             1268
+MA    Somerville                              1200
+      Quincy                                  1053
+      Brookline                                973
+BC    North Vancouver                          913
+OR    Tigard                                   887
+MA    Waltham                                  843
+GA    Smyrna                                   795
+MA    Newton                                   783
+FL    Altamonte Springs                        774
+OR    Lake Oswego                              736
+OH    Dublin                                   723
+MA    Salem                                    700
+FL    Sanford                                  655
+MA    Natick                                   650
+BC    Coquitlam                                646
+MA    Medford                                  628
+      Woburn                                   604
+      Peabody                                  586
+      Burlington                               583
+      Watertown                                581
+FL    Oviedo                                   568
+MA    Braintree                                566
+OH    Westerville                              557
+BC    Surrey                                   531
+MA    Malden                                   516
+BC    New Westminster                          516
+MA    Arlington                                509
+FL    Winter Garden                            509
+      Lake Mary                                508
+      Clermont                                 484
+MA    Beverly                                  473
+      Danvers                                  466
+GA    Marietta                                 463
+OR    Clackamas                                462
+GA    Tucker                                   462
+FL    Longwood                                 452
+MA    Norwood                                  452
+OH    Hilliard                                 446
+GA    Sandy Springs                            446
+OR    Milwaukie                                432
+MA    Allston                                  428
+      Saugus                                   421
+      Brighton                                 411
+      Dedham                                   405
+      Dorchester                               399
+FL    Apopka                                   396
+OR    Happy Valley                             391
+      Tualatin                                 391
+MA    Weymouth                                 384
+      Lynn                                     379
+      Revere                                   366
+CO    Louisville                               350
+MA    Jamaica Plain                            346
+      Belmont                                  323
+OR    Hillsboro                                317
+FL    Ocoee                                    314
+MA    Everett                                  312
+      Wakefield                                309
+TX    Lakeway                                  302
+MA    Lexington                                301
+      Wellesley                                300
+      Needham                                  298
+FL    Titusville                               298
+      Casselberry                              298
+      Lake Buena Vista                         297
+OH    Grove City                               296
+TX    Buda                                     291
+OH    Powell                                   285
+GA    Chamblee                                 282
+OH    Gahanna                                  279
+MA    Stoneham                                 278
+      Canton                                   265
+TX    Bee Cave                                 263
+OH    Reynoldsburg                             251
+TX    Kyle                                     251
+MA    West Roxbury                             244
+FL    Davenport                                242
+GA    Dunwoody                                 239
+      Doraville                                237
+MA    Hingham                                  233
+OH    Pickerington                             228
+MA    Stoughton                                228
+FL    Winter Springs                           228
+BC    West Vancouver                           226
+OR    Oregon City                              225
+FL    Cocoa                                    224
+MA    Reading                                  217
+      Melrose                                  216
+FL    Maitland                                 213
+MA    Roslindale                               212
+      Billerica                                210
+      Wilmington                               209
+TX    Dripping Springs                         209
+BC    Port Coquitlam                           200
+MA    Randolph                                 199
+      Chestnut Hill                            193
+OR    West Linn                                191
+MA    Concord                                  190
+GA    College Park                             184
+FL    Saint Cloud                              180
+MA    Chelsea                                  178
+BC    Delta                                    169
+OH    Worthington                              169
+MA    North Reading                            168
+OH    Lewis Center                             166
+BC    Port Moody                               166
+FL    Orange City                              166
+MA    Winchester                               164
+      Marblehead                               156
+OH    Delaware                                 154
+MA    Bedford                                  154
+CO    Lafayette                                148
+GA    East Point                               148
+FL    Windermere                               147
+MA    Charlestown                              145
+      Westwood                                 145
+FL    Merritt Island                           143
+OR    Aloha                                    141
+MA    Framingham                               137
+OH    Canal Winchester                         130
+MA    Norwell                                  127
+FL    Deltona                                  125
+OH    New Albany                               124
+FL    Celebration                              123
+TX    Pflugerville                             121
+MA    Winthrop                                 121
+      Middleton                                118
+      Swampscott                               117
+OR    Gresham                                  117
+MA    Roxbury                                  110
+GA    Forest Park                              107
+MA    Wayland                                  107
+OH    Upper Arlington                          106
+MA    Lynnfield                                105
+      Tewksbury                                105
+      East Boston                              104
+TX    West Lake Hills                          104
+MA    Milton                                   101
+      Hyde Park                                 99
+      South Boston                              97
+OR    Gladstone                                 93
+FL    Mount Dora                                89
+GA    Hapeville                                 87
+MA    Cohasset                                  83
+TX    Sunset Valley                             79
+MA    Hull                                      79
+GA    Stone Mountain                            77
+OH    Pataskala                                 73
+FL    St. Cloud                                 72
+WA    Camas                                     71
+MA    Holbrook                                  70
+GA    Brookhaven                                68
+TX    Manor                                     65
+OH    Plain City                                60
+MA    West Newton                               58
+      Dorchester Center                         54
+CO    Superior                                  54
+MA    Walpole                                   54
+OH    Groveport                                 54
+      Sunbury                                   54
+      Bexley                                    53
+MA    Avon                                      52
+OH    Whitehall                                 52
+MA    Newton Highlands                          51
+GA    Avondale Estates                          49
+MA    Mattapan                                  48
+FL    Bay Lake                                  48
+GA    Norcross                                  47
+      Mableton                                  47
+MA    Newton Center                             47
+      Newtonville                               46
+TX    Del Valle                                 46
+MA    Brockton                                  44
+      Newton Centre                             42
+      South Weymouth                            42
+GA    Clarkston                                 41
+MA    North Billerica                           41
+FL    Fern Park                                 40
+TX    Manchaca                                  39
+FL    Debary                                    39
+MA    Weston                                    38
+      Rockland                                  38
+CO    Niwot                                     36
+MA    Wellesley Hills                           35
+      Auburndale                                34
+      Lincoln                                   34
+      Roxbury Crossing                          33
+OH    Grandview Heights                         32
+      Blacklick                                 32
+OR    Oak Grove                                 30
+FL    ORLANDO                                   29
+MA    East Walpole                              29
+FL    DeBary                                    27
+OR    Damascus                                  27
+OH    Galloway                                  26
+MA    Sudbury                                   25
+TX    Driftwood                                 24
+MA    Needham Heights                           24
+FL    Champions Gate                            24
+OH    London                                    23
+GA    Scottdale                                 23
+      Ellenwood                                 23
+FL    Poinciana                                 20
+MA    East Weymouth                             19
+OH    Johnstown                                 18
+TX    Leander                                   18
+MA    Hanover                                   18
+BC    Bowen Island                              18
+GA    Lake City                                 17
+TX    Spicewood                                 17
+FL    Mims                                      16
+      St Cloud                                  16
+      Heathrow                                  16
+MA    North Andover                             16
+      Medfield                                  15
+GA    Morrow                                    15
+OR    King City                                 15
+OH    West Jefferson                            14
+      Galena                                    14
+TX    AUSTIN                                    14
+CO    Longmont                                  14
+MA    North Quincy                              14
+FL    Sorrento                                  14
+      Christmas                                 14
+MA    Newton Upper Falls                        14
+      Nahant                                    13
+FL    Minneola                                  13
+OH    Obetz                                     13
+CO    Erie                                      13
+TX    Rollingwood                               12
+MA    Andover                                   12
+FL    Belle Isle                                12
+MA    North Weymouth                            12
+OR    PORTLAND                                  12
+MA    Waban                                     11
+GA    ATLANTA                                   11
+MA    Newton U F                                11
+FL    Geneva                                    11
+      Oakland                                   10
+OH    Ashville                                   9
+FL    Montverde                                  9
+      Pine Castle                                9
+GA    Conley                                     9
+TX    Creedmoor                                  8
+FL    Alafaya                                    8
+TX    Round Rock                                 8
+OR    portland                                   7
+GA    Vinings                                    7
+OH    Grandview                                  7
+GA    Alpharetta                                 7
+FL    Four Corners                               7
+TX    Westlake Hills                             7
+CO    Golden                                     7
+OH    Carroll                                    7
+      Lockbourne                                 6
+FL    Championsgate                              6
+GA    Peachtree Corners                          6
+OH    Lithopolis                                 6
+FL    Chuluota                                   6
+MA    Dover                                      6
+      Mid-Cambridge                              6
+      Wollaston                                  6
+TX    Bee Caves                                  6
+FL    Osteen                                     6
+TX    Volente                                    5
+FL    Union Park                                 5
+TX    Cedar Park                                 5
+FL    Zellwood                                   5
+      Port St John                               5
+OH    South Bloomfield                           5
+OR    Sherwood                                   5
+BC    Greater Vancouver                          5
+FL    Buena Ventura Lakes                        5
+      kissimmee                                  5
+      KISSIMMEE                                  5
+OR    Fairview                                   5
+MA    Newton L F                                 5
+      West Concord                               5
+GA    Buckhead                                   5
+CO    Broomfield                                 5
+OH    Mount Sterling                             5
+      COLUMBUS                                   5
+MA    East Watertown                             5
+FL    Harmony                                    4
+MA    Newton Lower Falls                         4
+OH    Marysville                                 4
+FL    Port Saint John                            4
+      SANFORD                                    4
+WA    Hazel Dell                                 4
+BC    Ladner                                     4
+MA    BOSTON                                     4
+      Carlisle                                   4
+      Sherborn                                   4
+FL    Eatonville                                 4
+      Edgewood                                   4
+BC    New Westminister                           4
+OR    Durham                                     4
+GA    East Atlanta                               3
+MA    Sharon                                     3
+FL    Reunion                                    3
+      Port St. John                              3
+      ChampionsGate                              3
+GA    Sandy Spring                               3
+BC    Greater Vancouver A                        3
+OH    Urbancrest                                 3
+BC    BURNABY                                    3
+TX    Lago Vista                                 3
+FL    longwood                                   3
+WA    Ridgefield                                 3
+OH    Commercial Point                           3
+FL    Mt Dora                                    3
+OH    Orient                                     3
+WA    Orchards                                   3
+      Portland                                   3
+MA    South End                                  3
+OH    Etna                                       3
+GA    Lawrenceville                              3
+MA    DORCHESTER                                 3
+GA    Lithonia                                   3
+TX    Point Venture                              3
+MA    South Natick                               3
+TX    San Marcos                                 3
+FL    De Bary                                    3
+      Kenansville                                3
+GA    North Decatur                              3
+OR    Milwaukee                                  3
+FL    Gotha                                      3
+MA    Marlborough                                2
+      BURLINGTON                                 2
+OH    Brice                                      2
+CA    Austin                                     2
+MA    Back Bay                                   2
+      N Billerica                                2
+      Hanscom Air Force Base                     2
+CO    Eldorado Springs                           2
+BC    Steveston                                  2
+OH    Harrisburg                                 2
+CO    Gunbarrel                                  2
+TX    Lockhart                                   2
+OH    Berkshire                                  2
+MA    HIngham                                    2
+OH    Berkshire Township                         2
+      Grove city                                 2
+CO    Denver                                     2
+OH    Hillard                                    2
+CA    Orlando                                    2
+BC    SURREY                                     2
+MA    N. Billerica                               2
+      DEDHAM                                     2
+      West Medford                               2
+FL    Lake Buena Visa                            2
+MA    SOMERVILLE                                 2
+BC    North Delta                                2
+MA    medford                                    2
+OR    Tigard (Portland)                          2
+WA    VANCOUVER                                  2
+GA    Clayton                                    2
+OR    Happy valley                               2
+MA    east boston                                2
+WA    Beaverton                                  2
+OR    Lake Grove                                 2
+GA    Austell                                    2
+FL    Altamonte                                  2
+OR    Marylhurst                                 2
+GA    Eastpoint                                  2
+FL    Southwest Orlando                          2
+      orlando                                    2
+MA    boston                                     2
+FL    Winter springs                             2
+      Winter park                                2
+OR    OR                                         2
+FL    Wekiva Springs                             2
+      Waterford Lakes                            2
+MA    Sommerville                                2
+OR    Porltand                                   2
+FL    St.Cloud                                   2
+MA    WOBURN                                     2
+FL    WINTER GARDEN                              2
+OR    Boring                                     2
+MA    West Peabody                               2
+GA    Pine Lake                                  2
+FL    Lockhart                                   2
+      Kissimee                                   2
+MA    North Beverly                              2
+FL    Altamonte Spring                           2
+BC    RICHMOND                                   2
+      Anmore                                     2
+GA    Kennesaw                                   2
+OR    BEAVERTON                                  2
+BC    Belcarra                                   2
+GA    atlanta                                    2
+FL    OVIEDO                                     2
+      Haines City                                2
+      LONGWOOD                                   2
+GA    Fulton                                     2
+MA    AUBURNDALE                                 2
+TX    Westlake                                   2
+      West Austin                                1
+      Sunset valley                              1
+WA    North Vancouver                            1
+WI    Glendale                                   1
+WA    Vanvouver                                  1
+MA    Wrenthan                                   1
+      West Roxury                                1
+OH    Blendon Twp                                1
+MA    Westford                                   1
+WA    Vancover                                   1
+TX    Thoroughbred Estates                       1
+      Van Alstyne                                1
+MA    cambridge                                  1
+WA    Felida                                     1
+MA    stoneham                                   1
+NY    Spring Valley                              1
+NH    Nashua                                     1
+      Hollis                                     1
+OH    Alton                                      1
+NH    Hampton                                    1
+MN    Austin                                     1
+MI    Jackson                                    1
+ME    North Reading                              1
+MA    watertown                                  1
+      wakefield                                  1
+      reading                                    1
+WA    Everett                                    1
+MA    norwood                                    1
+TX    austin                                     1
+OH    Amlin                                      1
+MA    norwell                                    1
+      newton                                     1
+VA    Norfolk                                    1
+TX    West Lake                                  1
+VA    Richmond                                   1
+MA    brighton                                   1
+WA    Castle Rock                                1
+TX    Wimberley                                  1
+      Austin.                                    1
+      South Buda                                 1
+      Schertz                                    1
+OR    Portland-Eastport Plaza                    1
+      Portland Oregon                            1
+TX    Bud                                        1
+OR    Portand                                    1
+      Phoenix                                    1
+      PORTLAND AP                                1
+      Northwest Clackamas                        1
+      North Portland                             1
+      Milwuakie                                  1
+      Milwauke                                   1
+      Medford                                    1
+      MILWAUKIE                                  1
+      Lake Owego                                 1
+      Lake Oswego, OR                            1
+TX    DRIFTWOOD                                  1
+OR    Historic Milwaukie                         1
+TX    Dale                                       1
+OR    Hillsbor                                   1
+      HILLSBORO                                  1
+      Delta Park                                 1
+      Damascas                                   1
+TX    Del Valley                                 1
+      Dell Valley                                1
+OR    CLACKAMAS                                  1
+TX    Downtown Austin                            1
+OR    Portland-Gateway Plaza                     1
+      Prontland                                  1
+TX    Beecave                                    1
+OR    Wilsonville                                1
+TX    Austin, TX                                 1
+      Auston                                     1
+      Austin texas                               1
+      Austin SW                                  1
+      Austin - Westlake Hills                    1
+      Austin                                     1
+      Autin                                      1
+      Auatin                                     1
+OR    milwaukie                                  1
+      beaverton Or                               1
+      beaverton                                  1
+      Vancouver                                  1
+      Rivergrove                                 1
+TX    Bastrop                                    1
+OR    Troutland                                  1
+      Tillamoo                                   1
+      TIgard                                     1
+      TIGARD                                     1
+      St Johns                                   1
+      Silverton                                  1
+      Sellwood                                   1
+      San dy                                     1
+      Salem                                      1
+      Rockwood                                   1
+      Bend                                       1
+      Beaverton-Aloha                            1
+      Beaverton (Portland)                       1
+OH    Englewood                                  1
+TX    Mustang Ridge                              1
+OH    Grove Port                                 1
+TX    New Braunfels                              1
+OH    Granville                                  1
+TX    Niederwald                                 1
+      North Lakeway                              1
+      North Lamar                                1
+OH    GRANDVIEW                                  1
+TX    Oakhill                                    1
+OH    Franklin                                   1
+TX    Pilot Knob Acres                           1
+OH    DUBLIN                                     1
+      Hiliard                                    1
+      Coumbus                                    1
+      Columbus/Hilliard                          1
+      Columbus North                             1
+      Columbus - Lewis Center                    1
+      Columbus - Hilliard                        1
+      Columbus - Clintonville                    1
+TX    San Antonio                                1
+OH    Columbus                                   1
+      Colombus                                   1
+      Clintonville                               1
+      Cleveland                                  1
+      Heath                                      1
+TX    LakeWay                                    1
+      Driftwood, TX                              1
+OH    Upper Arlignton                            1
+OR    Beavercreek                                1
+ON    Burnaby                                    1
+OK    Oklahoma City                              1
+OH    columbus                                   1
+TX    Dripping Springs.                          1
+      Dripping springs                           1
+OH    West Pataskala                             1
+      West Columbus                              1
+      WESTERVILLE                                1
+      Upper Arlngtn                              1
+TX    Drippings Springs                          1
+OH    Springfield                                1
+TX    Lake Travis                                1
+OH    Shawnee Hills                              1
+TX    Garfield                                   1
+      Hays                                       1
+      Hutto                                      1
+OH    Polaris                                    1
+TX    Jackson                                    1
+OH    PICKERINGTON                               1
+      Orange                                     1
+TX    Kerrville                                  1
+OH    Millersport                                1
+      Marble Cliff                               1
+TX    LAKEWAY                                    1
+ABE   Vancouver                                  1
+MA    Wenham                                     1
+FL    Palm Bay                                   1
+      Orlando                                    1
+      Orlando Fl                                 1
+      Orlando, Florida                           1
+      Orlando-Kissimmee                          1
+      Orlanto                                    1
+      Oveido                                     1
+      Pine Hills                                 1
+GA    Decatur, GA                                1
+FL    Rockledge                                  1
+      ST. CLOUD                                  1
+      Saint  Cloud                               1
+      Sand Lake                                  1
+      Sand Lake, Florida                         1
+      Sanford,                                   1
+      Orland                                     1
+      Ocoee Fl                                   1
+      Ococee                                     1
+      ORLANDO HOTEL                              1
+      Northeast Orlando                          1
+      Midway                                     1
+      Miami Beach                                1
+      Miami                                      1
+      Merrit Island                              1
+      Loughman                                   1
+      Longwood Fl                                1
+      Lee Vista                                  1
+      Lake Buena Vista, Orlando                  1
+      Lake Buena                                 1
+      Kissimmee,                                 1
+      Goldenrod                                  1
+      Gainesville                                1
+      Southeast Orlando                          1
+      Southwest Tampa                            1
+      St John                                    1
+GA    Atlanta                                    1
+      Dallas                                     1
+      DUNWOODY                                   1
+      Conyers                                    1
+      Concourse C                                1
+      Columbus                                   1
+      Collegepark                                1
+      College Park Ga                            1
+      Clarkson                                   1
+      Candler-McAfee                             1
+      CONLEY                                     1
+      Buford                                     1
+      Atlants                                    1
+      Atlanta (Georgia Tech)                     1
+MA    Wellsley                                   1
+GA    Atlanda                                    1
+FL    TITUSVILLE                                 1
+GA    Atalanta                                   1
+      Altanta                                    1
+FL    oviedo                                     1
+      lake mary                                  1
+      casselberry                                1
+      apopka                                     1
+      Winterpark                                 1
+      Winter Spring                              1
+      Winter Park                                1
+      West Plant                                 1
+      Walt Disney World                          1
+      WInter Park                                1
+      WINTER SPRINGS                             1
+      WINTER PARK                                1
+      Forest City                                1
+      Florida                                    1
+      Fern park                                  1
+BC    Norht Vancouver                            1
+CA    Morgan Hill                                1
+      Beaverton                                  1
+BC    vancouver                                  1
+      surrey                                     1
+      West Point Grey                            1
+      Victoria                                   1
+      Vancover                                   1
+      Vancouver BC                               1
+      VANCOUVER DT (BC)                          1
+      VANCOUVER                                  1
+      RichMond                                   1
+      Port coquitlam                             1
+      PORT COQUITLAM                             1
+      North Vancouver District                   1
+      Newwestminster                             1
+CA    San Jose                                   1
+BC    NORTH VANCOUVER                            1
+      NEW WESTMINSTER                            1
+      N Vancouver                                1
+      Lougheed                                   1
+      Lions Bay                                  1
+      Kitsilano                                  1
+      Kelowna                                    1
+      Greater Vancouver Regional District        1
+      Greater Vancouver Area                     1
+      Fraser Heights                             1
+      East Vancouver                             1
+      Downtown Vancouver                         1
+AZ    Salem                                      1
+      Lake Oswego                                1
+CA    New Albany                                 1
+      Vancouver                                  1
+FL    Doctor Phillips                            1
+      Altamonte Spg                              1
+      Deland                                     1
+      DEBARY                                     1
+      DAVENPORT                                  1
+      Cassselberry                               1
+      COCOA                                      1
+      CLERMONT                                   1
+      CASSELBERRY                                1
+      Brevard County                             1
+      Beuna Vista                                1
+      Bayamon                                    1
+      Altamonte Springs, Florida                 1
+      Altamonte Springs Orlando                  1
+      Altamonte Springs                          1
+      Altamonte Sprin                            1
+      Altamonte  springs                         1
+CO    Arvada                                     1
+FL    Aloma                                      1
+      Alamonte Springs                           1
+      ALTAMONTE SPRINGS                          1
+      51 Richard Beall Hwy 17-92                 1
+DE    Powell                                     1
+DC    Vancouver                                  1
+CO    Walnut Gardens  Boulder                    1
+      Lousville                                  1
+      Lousiville                                 1
+      Jamestown                                  1
+      Gold Hill                                  1
+      Bolder                                     1
+      BOULDER                                    1
+      Aurora                                     1
+GA    Decatur                                    1
+      Atlanta  (BKHD)                            1
+      Druid Hills                                1
+MA    Braintree                                  1
+      N.Billerica                                1
+      N. Weymouth                                1
+      Mission Hill                               1
+      Maynard                                    1
+      Marshfield                                 1
+      Marlbehead                                 1
+      MIlton                                     1
+      MEDFORD                                    1
+      Lower Mills                                1
+      Jeffries Point / Airport                   1
+      Jeffries Point                             1
+      Jamaica  Plain                             1
+      Hollbrook                                  1
+AL    Austin                                     1
+MA    Hanscom AFB                                1
+      HOLB                                       1
+      HINGHAM                                    1
+      Greater Boston Area                        1
+      Franklin                                   1
+GA    E.Point                                    1
+MA    East boston                                1
+      EVERETT                                    1
+      EAST  Boston                               1
+      E. Boston                                  1
+      E Boston                                   1
+      Chestnut Hills                             1
+      Chelmsford                                 1
+      Charleston                                 1
+      Brookline Village                          1
+      N.Reading                                  1
+      Newburyport                                1
+      Newton Corner                              1
+      S. Boston                                  1
+      Wellesley,                                 1
+      Watertown,                                 1
+      Watertowm                                  1
+      Wakefield, Massachusetts                   1
+      Wakefield Ma                               1
+      WALTHAM                                    1
+      W. Roxbury                                 1
+      Tewskbury                                  1
+      Stoughton MA                               1
+      Stoughon                                   1
+      South Waltham                              1
+      South Brookline                            1
+      So. Weymouth                               1
+      S Boston                                   1
+      Newton MA                                  1
+      Rockport                                   1
+      Readville                                  1
+      REVERE                                     1
+      Quincy Center                              1
+      Provincetown                               1
+      Pinehurst                                  1
+      PEABODY                                    1
+      Oak Square                                 1
+      Norwood Center                             1
+      North Waltham                              1
+      North Scituate Village                     1
+      North Cambridge                            1
+      Newton Upper Fall                          1
+      Braintree Ma                               1
+      FRAMINGHAM                                 1
+GA    Roswell                                    1
+      Perimeter                                  1
+KS    Ellsworth                                  1
+IL    Franklin Park                              1
+GA    acworth                                    1
+      Winder                                     1
+      Snellville                                 1
+      Smryna                                     1
+      Sandy springs                              1
+      SMYRNA                                     1
+MA    Braintee                                   1
+GA    Riverdale                                  1
+      Ponce                                      1
+      Point                                      1
+      Piedmont                                   1
+      Northlake                                  1
+MA    Arling-n                                   1
+GA    NW Atlanta                                 1
+      Monroe                                     1
+      McDonough                                  1
+      Marrietta                                  1
+      Mareitta                                   1
+      Macon                                      1
+      Mabelton                                   1
+      LAKE CITY                                  1
+      Historical Park                            1
+      Hapevile                                   1
+      Griffin                                    1
+      Gillem Enclave                             1
+      Georgia                                    1
+KY    Liberty                                    1
+WY    Sheridan                                   1
+MA    Babson Park                                1
+      Arlington Heights                          1
+      BRA                                        1
+      Ashland                                    1
+      Boston-Fenway                              1
+      BOSTON LOGAN AP                            1
+      BOSTON, HOTEL                              1
+      BrIghton                                   1
+      Boston College                             1
+      BRAINTREE                                  1
+      Boston-Winthrop                            1
+      Beacon Hill                                1
+GA    Metro Atlanta                              0
+MA    Dedham                                     0
+FL    Buena Vista                                0
+      Hunters Creek                              0
+TX    Austin Tx                                  0
+OR    Milwaulkie                                 0
+BC    Vancovuer                                  0
+MA    East Arlington                             0
+      Oak Bluffs                                 0
+BC    burnaby                                    0
+FL    Lake Monroe                                0
+GA    Buckhead, Atlanta                          0
+      Brookwood                                  0
+MA    Worcester                                  0
+TX    Southeast Austin                           0
+GA    Lilburn                                    0
+ON    Toronto                                    0
+MA    Stouhgton                                  0
+WA    Homan                                      0
+OR    Washington County                          0
+      West linn                                  0
+GA    Gwinnett                                   0
+FL    Metro Orlando                              0
+BC    Cloverdale                                 0
+MA    Brighton Newton                            0
+GA    Fairburn                                   0
+OR    Mission Viejo                              0
+MA    North Shore                                0
+OR    NE Portland                                0
+CA    Atlanta                                    0
+MA    Harbor Islands                             0
+TX    El Cerrito                                 0
+      Greater Austin                             0
+MA    Kingston                                   0
+      Leominster                                 0
+HI    Portland                                   0
+FL    Central                                    0
+GA    Woodstock                                  0
+OR    Portland, OR                               0
+TX    Lake Austin                                0
+FL    Cooper City                                0
+TX    Dallas                                     0
+MA    Greater Boston MA                          0
+      Greater Boston                             0
+      Nantasket Beach                            0
+FL    Dr. Phillips                               0
+TX    Nagadocaches                               0
+FL    Winter Garden Fl                           0
+OH    UPPER ARLNGTN                              0
+NY    Kings County                               0
+NM    Rio Rancho                                 0
+TX    Belterra                                   0
+FL    Orlando Florida                            0
+CA    Portland                                   0
+TX    Portland                                   0
+NH    Danville                                   0
+NC    Sanford                                    0
+CA    Irvine                                     0
+OH    North Olmsted                              0
+FL    Monteverde                                 0
+
