@@ -88,11 +88,8 @@ class US:
 
 		yelp_us = pd.read_json('/Users/admin/PycharmProjects/atlantbh_internship/Massachusetts.json', lines=True)  # this is data that already only includes open businesses
 		yelp_us = yelp_us.drop(['business_id', 'hours', 'stars', 'review_count', 'is_open', 'attributes', 'address', 'city', 'state', 'categories', 'postal_code'], axis=1)	
-		yelp_500 = yelp_us.head(5)
-		yelp_500['verification_score'] = yelp_500.apply(lambda x : self.skor(x), axis=1)
-		#yelp_500 = yelp_500[yelp_500['verification_score'].str.contains(' nan')==False]
-
-		yelp_500.to_csv("yelp_massachussets_verified_all_test.csv", index=None, encoding='utf-8')
+		yelp_us['verification_score'] = yelp_us.apply(lambda x : self.skor(x), axis=1)
+		yelp_us.to_csv("yelp_massachussets_verified_all_test.csv", index=None, encoding='utf-8')
 
 if __name__ == '__main__':
 	file = pd.read_csv('massachusetts-filtered.csv', sep=',')
