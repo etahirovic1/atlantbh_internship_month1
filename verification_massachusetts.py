@@ -29,9 +29,6 @@ class US:
 	def score_it(self, dist, yelp_name, osm_name):
 	
 		haver_score = int(100-dist) # we only match up to 100m distance, so scale to 100 points
-
-		if haver_score < 0: # if the distance is more than 100m, revert to 0 points
-			haver_score = 0
 	
 		st1 = str(osm_name); st1 = st1.lower()
 		st2 = str(yelp_name); st2 = st2.lower()
